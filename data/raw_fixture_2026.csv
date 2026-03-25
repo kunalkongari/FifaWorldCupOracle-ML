@@ -1,0 +1,105 @@
+Home,Score,Away,year
+Mexico,Match 1,South Africa,2026
+South Korea,Match 2,UEFA Path Dwinner,2026
+UEFA Path Dwinner,Match 25,South Africa,2026
+Mexico,Match 28,South Korea,2026
+UEFA Path Dwinner,Match 53,Mexico,2026
+South Africa,Match 54,South Korea,2026
+Canada,Match 3,UEFA Path Awinner,2026
+Qatar,Match 8,Switzerland,2026
+Switzerland,Match 26,UEFA Path Awinner,2026
+Canada,Match 27,Qatar,2026
+Switzerland,Match 51,Canada,2026
+UEFA Path Awinner,Match 52,Qatar,2026
+Brazil,Match 7,Morocco,2026
+Haiti,Match 5,Scotland,2026
+Scotland,Match 30,Morocco,2026
+Brazil,Match 29,Haiti,2026
+Scotland,Match 49,Brazil,2026
+Morocco,Match 50,Haiti,2026
+United States,Match 4,Paraguay,2026
+Australia,Match 6,UEFA Path Cwinner,2026
+United States,Match 32,Australia,2026
+UEFA Path Cwinner,Match 31,Paraguay,2026
+UEFA Path Cwinner,Match 59,United States,2026
+Paraguay,Match 60,Australia,2026
+Germany,Match 10,Curaçao,2026
+Ivory Coast,Match 9,Ecuador,2026
+Germany,Match 33,Ivory Coast,2026
+Ecuador,Match 34,Curaçao,2026
+Curaçao,Match 55,Ivory Coast,2026
+Ecuador,Match 56,Germany,2026
+Netherlands,Match 11,Japan,2026
+UEFA Path Bwinner,Match 12,Tunisia,2026
+Netherlands,Match 35,UEFA Path Bwinner,2026
+Tunisia,Match 36,Japan,2026
+Japan,Match 57,UEFA Path Bwinner,2026
+Tunisia,Match 58,Netherlands,2026
+Belgium,Match 16,Egypt,2026
+Iran,Match 15,New Zealand,2026
+Belgium,Match 39,Iran,2026
+New Zealand,Match 40,Egypt,2026
+Egypt,Match 63,Iran,2026
+New Zealand,Match 64,Belgium,2026
+Spain,Match 14,Cape Verde,2026
+Saudi Arabia,Match 13,Uruguay,2026
+Spain,Match 38,Saudi Arabia,2026
+Uruguay,Match 37,Cape Verde,2026
+Cape Verde,Match 65,Saudi Arabia,2026
+Uruguay,Match 66,Spain,2026
+France,Match 17,Senegal,2026
+IC Path 2winner,Match 18,Norway,2026
+France,Match 42,IC Path 2winner,2026
+Norway,Match 41,Senegal,2026
+Norway,Match 61,France,2026
+Senegal,Match 62,IC Path 2winner,2026
+Argentina,Match 19,Algeria,2026
+Austria,Match 20,Jordan,2026
+Argentina,Match 43,Austria,2026
+Jordan,Match 44,Algeria,2026
+Algeria,Match 69,Austria,2026
+Jordan,Match 70,Argentina,2026
+Portugal,Match 23,IC Path 1winner,2026
+Uzbekistan,Match 24,Colombia,2026
+Portugal,Match 47,Uzbekistan,2026
+Colombia,Match 48,IC Path 1winner,2026
+Colombia,Match 71,Portugal,2026
+IC Path 1winner,Match 72,Uzbekistan,2026
+England,Match 22,Croatia,2026
+Ghana,Match 21,Panama,2026
+England,Match 45,Ghana,2026
+Panama,Match 46,Croatia,2026
+Panama,Match 67,England,2026
+Croatia,Match 68,Ghana,2026
+Runner-up Group A,Match 73,Runner-up Group B,2026
+Winner Group C,Match 76,Runner-up Group F,2026
+Winner Group E,Match 74,3rd Group A/B/C/D/F,2026
+Winner Group F,Match 75,Runner-up Group C,2026
+Runner-up Group E,Match 78,Runner-up Group I,2026
+Winner Group I,Match 77,3rd Group C/D/F/G/H,2026
+Winner Group A,Match 79,3rd Group C/E/F/H/I,2026
+Winner Group L,Match 80,3rd Group E/H/I/J/K,2026
+Winner Group G,Match 82,3rd Group A/E/H/I/J,2026
+Winner Group D,Match 81,3rd Group B/E/F/I/J,2026
+Winner Group H,Match 84,Runner-up Group J,2026
+Runner-up Group K,Match 83,Runner-up Group L,2026
+Winner Group B,Match 85,3rd Group E/F/G/I/J,2026
+Runner-up Group D,Match 88,Runner-up Group G,2026
+Winner Group J,Match 86,Runner-up Group H,2026
+Winner Group K,Match 87,3rd Group D/E/I/J/L,2026
+Winner Match 73,Match 90,Winner Match 75,2026
+Winner Match 74,Match 89,Winner Match 77,2026
+Winner Match 76,Match 91,Winner Match 78,2026
+Winner Match 79,Match 92,Winner Match 80,2026
+Winner Match 83,Match 93,Winner Match 84,2026
+Winner Match 81,Match 94,Winner Match 82,2026
+Winner Match 86,Match 95,Winner Match 88,2026
+Winner Match 85,Match 96,Winner Match 87,2026
+Winner Match 89,Match 97,Winner Match 90,2026
+Winner Match 93,Match 98,Winner Match 94,2026
+Winner Match 91,Match 99,Winner Match 92,2026
+Winner Match 95,Match 100,Winner Match 96,2026
+Winner Match 97,Match 101,Winner Match 98,2026
+Winner Match 99,Match 102,Winner Match 100,2026
+Loser Match 101,Match 103,Loser Match 102,2026
+Winner Match 101,Match 104,Winner Match 102,2026

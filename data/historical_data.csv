@@ -1,0 +1,929 @@
+HomeTeam,AwayTeam,Year,HomeGoals,AwayGoals,TotalGoals,Outcome
+France,Mexico,1930,4,1,5,HomeTeam Win
+Argentina,France,1930,1,0,1,HomeTeam Win
+Chile,Mexico,1930,3,0,3,HomeTeam Win
+Chile,France,1930,1,0,1,HomeTeam Win
+Argentina,Mexico,1930,6,3,9,HomeTeam Win
+Argentina,Chile,1930,3,1,4,HomeTeam Win
+Yugoslavia,Brazil,1930,2,1,3,HomeTeam Win
+Yugoslavia,Bolivia,1930,4,0,4,HomeTeam Win
+Brazil,Bolivia,1930,4,0,4,HomeTeam Win
+Romania,Peru,1930,3,1,4,HomeTeam Win
+Uruguay,Peru,1930,1,0,1,HomeTeam Win
+Uruguay,Romania,1930,4,0,4,HomeTeam Win
+United States,Belgium,1930,3,0,3,HomeTeam Win
+United States,Paraguay,1930,3,0,3,HomeTeam Win
+Paraguay,Belgium,1930,1,0,1,HomeTeam Win
+Argentina,United States,1930,6,1,7,HomeTeam Win
+Uruguay,Yugoslavia,1930,6,1,7,HomeTeam Win
+Uruguay,Argentina,1930,4,2,6,HomeTeam Win
+Spain,Brazil,1934,3,1,4,HomeTeam Win
+Hungary,Egypt,1934,4,2,6,HomeTeam Win
+Switzerland,Netherlands,1934,3,2,5,HomeTeam Win
+Italy,United States,1934,7,1,8,HomeTeam Win
+Czechoslovakia,Romania,1934,2,1,3,HomeTeam Win
+Sweden,Argentina,1934,3,2,5,HomeTeam Win
+Austria,France,1934,3,2,5,HomeTeam Win
+Germany,Belgium,1934,5,2,7,HomeTeam Win
+Austria,Hungary,1934,2,1,3,HomeTeam Win
+Italy,Spain,1934,1,1,2,Draw
+Germany,Sweden,1934,2,1,3,HomeTeam Win
+Czechoslovakia,Switzerland,1934,3,2,5,HomeTeam Win
+Italy,Spain,1934,1,0,1,HomeTeam Win
+Italy,Austria,1934,1,0,1,HomeTeam Win
+Czechoslovakia,Germany,1934,3,1,4,HomeTeam Win
+Germany,Austria,1934,3,2,5,HomeTeam Win
+Italy,Czechoslovakia,1934,2,1,3,HomeTeam Win
+Switzerland,Germany,1938,1,1,2,Draw
+Hungary,Dutch East Indies,1938,6,0,6,HomeTeam Win
+Cuba,Romania,1938,3,3,6,Draw
+France,Belgium,1938,3,1,4,HomeTeam Win
+Italy,Norway,1938,2,1,3,HomeTeam Win
+Brazil,Poland,1938,6,5,11,HomeTeam Win
+Czechoslovakia,Netherlands,1938,3,0,3,HomeTeam Win
+Switzerland,Germany,1938,4,2,6,HomeTeam Win
+Cuba,Romania,1938,2,1,3,HomeTeam Win
+Hungary,Switzerland,1938,2,0,2,HomeTeam Win
+Sweden,Cuba,1938,8,0,8,HomeTeam Win
+Italy,France,1938,3,1,4,HomeTeam Win
+Brazil,Czechoslovakia,1938,1,1,2,Draw
+Brazil,Czechoslovakia,1938,2,1,3,HomeTeam Win
+Hungary,Sweden,1938,5,1,6,HomeTeam Win
+Italy,Brazil,1938,2,1,3,HomeTeam Win
+Brazil,Sweden,1938,4,2,6,HomeTeam Win
+Italy,Hungary,1938,4,2,6,HomeTeam Win
+Brazil,Mexico,1950,4,0,4,HomeTeam Win
+Yugoslavia,Switzerland,1950,3,0,3,HomeTeam Win
+Brazil,Switzerland,1950,2,2,4,Draw
+Yugoslavia,Mexico,1950,4,1,5,HomeTeam Win
+Brazil,Yugoslavia,1950,2,0,2,HomeTeam Win
+Switzerland,Mexico,1950,2,1,3,HomeTeam Win
+England,Chile,1950,2,0,2,HomeTeam Win
+Spain,United States,1950,3,1,4,HomeTeam Win
+Spain,Chile,1950,2,0,2,HomeTeam Win
+United States,England,1950,1,0,1,HomeTeam Win
+Spain,England,1950,1,0,1,HomeTeam Win
+Chile,United States,1950,5,2,7,HomeTeam Win
+Sweden,Italy,1950,3,2,5,HomeTeam Win
+Sweden,Paraguay,1950,2,2,4,Draw
+Italy,Paraguay,1950,2,0,2,HomeTeam Win
+Uruguay,Bolivia,1950,8,0,8,HomeTeam Win
+Uruguay,Spain,1950,2,2,4,Draw
+Brazil,Sweden,1950,7,1,8,HomeTeam Win
+Brazil,Spain,1950,6,1,7,HomeTeam Win
+Uruguay,Sweden,1950,3,2,5,HomeTeam Win
+Sweden,Spain,1950,3,1,4,HomeTeam Win
+Uruguay,Brazil,1950,2,1,3,HomeTeam Win
+Brazil,Mexico,1954,5,0,5,HomeTeam Win
+Yugoslavia,France,1954,1,0,1,HomeTeam Win
+Brazil,Yugoslavia,1954,1,1,2,Draw
+France,Mexico,1954,3,2,5,HomeTeam Win
+West Germany,Turkey,1954,4,1,5,HomeTeam Win
+Hungary,South Korea,1954,9,0,9,HomeTeam Win
+Hungary,West Germany,1954,8,3,11,HomeTeam Win
+Turkey,South Korea,1954,7,0,7,HomeTeam Win
+West Germany,Turkey,1954,7,2,9,HomeTeam Win
+Uruguay,Czechoslovakia,1954,2,0,2,HomeTeam Win
+Austria,Scotland,1954,1,0,1,HomeTeam Win
+Uruguay,Scotland,1954,7,0,7,HomeTeam Win
+Austria,Czechoslovakia,1954,5,0,5,HomeTeam Win
+Switzerland,Italy,1954,2,1,3,HomeTeam Win
+England,Belgium,1954,4,4,8,Draw
+Italy,Belgium,1954,4,1,5,HomeTeam Win
+England,Switzerland,1954,2,0,2,HomeTeam Win
+Switzerland,Italy,1954,4,1,5,HomeTeam Win
+Austria,Switzerland,1954,7,5,12,HomeTeam Win
+Uruguay,England,1954,4,2,6,HomeTeam Win
+West Germany,Yugoslavia,1954,2,0,2,HomeTeam Win
+Hungary,Brazil,1954,4,2,6,HomeTeam Win
+West Germany,Austria,1954,6,1,7,HomeTeam Win
+Hungary,Uruguay,1954,4,2,6,HomeTeam Win
+Austria,Uruguay,1954,3,1,4,HomeTeam Win
+West Germany,Hungary,1954,3,2,5,HomeTeam Win
+Argentina,West Germany,1958,1,3,4,AwayTeam Win
+Northern Ireland,Czechoslovakia,1958,1,0,1,HomeTeam Win
+West Germany,Czechoslovakia,1958,2,2,4,Draw
+Argentina,Northern Ireland,1958,3,1,4,HomeTeam Win
+West Germany,Northern Ireland,1958,2,2,4,Draw
+Czechoslovakia,Argentina,1958,6,1,7,HomeTeam Win
+Northern Ireland,Czechoslovakia,1958,2,1,3,HomeTeam Win
+France,Paraguay,1958,7,3,10,HomeTeam Win
+Yugoslavia,Scotland,1958,1,1,2,Draw
+Yugoslavia,France,1958,3,2,5,HomeTeam Win
+Paraguay,Scotland,1958,3,2,5,HomeTeam Win
+France,Scotland,1958,2,1,3,HomeTeam Win
+Paraguay,Yugoslavia,1958,3,3,6,Draw
+Sweden,Mexico,1958,3,0,3,HomeTeam Win
+Hungary,Wales,1958,1,1,2,Draw
+Mexico,Wales,1958,1,1,2,Draw
+Sweden,Hungary,1958,2,1,3,HomeTeam Win
+Sweden,Wales,1958,0,0,0,Draw
+Hungary,Mexico,1958,4,0,4,HomeTeam Win
+Wales,Hungary,1958,2,1,3,HomeTeam Win
+Brazil,Austria,1958,3,0,3,HomeTeam Win
+Soviet Union,England,1958,2,2,4,Draw
+Brazil,England,1958,0,0,0,Draw
+Soviet Union,Austria,1958,2,0,2,HomeTeam Win
+England,Austria,1958,2,2,4,Draw
+Brazil,Soviet Union,1958,2,0,2,HomeTeam Win
+Soviet Union,England,1958,1,0,1,HomeTeam Win
+Brazil,Wales,1958,1,0,1,HomeTeam Win
+France,Northern Ireland,1958,4,0,4,HomeTeam Win
+Sweden,Soviet Union,1958,2,0,2,HomeTeam Win
+West Germany,Yugoslavia,1958,1,0,1,HomeTeam Win
+Brazil,France,1958,5,2,7,HomeTeam Win
+Sweden,West Germany,1958,3,1,4,HomeTeam Win
+France,West Germany,1958,6,3,9,HomeTeam Win
+Brazil,Sweden,1958,5,2,7,HomeTeam Win
+Uruguay,Colombia,1962,2,1,3,HomeTeam Win
+Soviet Union,Yugoslavia,1962,2,0,2,HomeTeam Win
+Yugoslavia,Uruguay,1962,3,1,4,HomeTeam Win
+Soviet Union,Colombia,1962,4,4,8,Draw
+Soviet Union,Uruguay,1962,2,1,3,HomeTeam Win
+Yugoslavia,Colombia,1962,5,0,5,HomeTeam Win
+Chile,Switzerland,1962,3,1,4,HomeTeam Win
+West Germany,Italy,1962,0,0,0,Draw
+Chile,Italy,1962,2,0,2,HomeTeam Win
+West Germany,Switzerland,1962,2,1,3,HomeTeam Win
+West Germany,Chile,1962,2,0,2,HomeTeam Win
+Italy,Switzerland,1962,3,0,3,HomeTeam Win
+Brazil,Mexico,1962,2,0,2,HomeTeam Win
+Czechoslovakia,Spain,1962,1,0,1,HomeTeam Win
+Brazil,Czechoslovakia,1962,0,0,0,Draw
+Spain,Mexico,1962,1,0,1,HomeTeam Win
+Brazil,Spain,1962,2,1,3,HomeTeam Win
+Mexico,Czechoslovakia,1962,3,1,4,HomeTeam Win
+Argentina,Bulgaria,1962,1,0,1,HomeTeam Win
+Hungary,England,1962,2,1,3,HomeTeam Win
+England,Argentina,1962,3,1,4,HomeTeam Win
+Hungary,Bulgaria,1962,6,1,7,HomeTeam Win
+Hungary,Argentina,1962,0,0,0,Draw
+England,Bulgaria,1962,0,0,0,Draw
+Chile,Soviet Union,1962,2,1,3,HomeTeam Win
+Czechoslovakia,Hungary,1962,1,0,1,HomeTeam Win
+Brazil,England,1962,3,1,4,HomeTeam Win
+Yugoslavia,West Germany,1962,1,0,1,HomeTeam Win
+Czechoslovakia,Yugoslavia,1962,3,1,4,HomeTeam Win
+Brazil,Chile,1962,4,2,6,HomeTeam Win
+Chile,Yugoslavia,1962,1,0,1,HomeTeam Win
+Brazil,Czechoslovakia,1962,3,1,4,HomeTeam Win
+England,Uruguay,1966,0,0,0,Draw
+France,Mexico,1966,1,1,2,Draw
+Uruguay,France,1966,2,1,3,HomeTeam Win
+England,Mexico,1966,2,0,2,HomeTeam Win
+Mexico,Uruguay,1966,0,0,0,Draw
+England,France,1966,2,0,2,HomeTeam Win
+West Germany,Switzerland,1966,5,0,5,HomeTeam Win
+Argentina,Spain,1966,2,1,3,HomeTeam Win
+Spain,Switzerland,1966,2,1,3,HomeTeam Win
+Argentina,West Germany,1966,0,0,0,Draw
+Argentina,Switzerland,1966,2,0,2,HomeTeam Win
+West Germany,Spain,1966,2,1,3,HomeTeam Win
+Brazil,Bulgaria,1966,2,0,2,HomeTeam Win
+Portugal,Hungary,1966,3,1,4,HomeTeam Win
+Hungary,Brazil,1966,3,1,4,HomeTeam Win
+Portugal,Bulgaria,1966,3,0,3,HomeTeam Win
+Portugal,Brazil,1966,3,1,4,HomeTeam Win
+Hungary,Bulgaria,1966,3,1,4,HomeTeam Win
+Soviet Union,North Korea,1966,3,0,3,HomeTeam Win
+Italy,Chile,1966,2,0,2,HomeTeam Win
+Chile,North Korea,1966,1,1,2,Draw
+Soviet Union,Italy,1966,1,0,1,HomeTeam Win
+North Korea,Italy,1966,1,0,1,HomeTeam Win
+Soviet Union,Chile,1966,2,1,3,HomeTeam Win
+England,Argentina,1966,1,0,1,HomeTeam Win
+West Germany,Uruguay,1966,4,0,4,HomeTeam Win
+Soviet Union,Hungary,1966,2,1,3,HomeTeam Win
+Portugal,North Korea,1966,5,3,8,HomeTeam Win
+West Germany,Soviet Union,1966,2,1,3,HomeTeam Win
+England,Portugal,1966,2,1,3,HomeTeam Win
+Portugal,Soviet Union,1966,2,1,3,HomeTeam Win
+England,West Germany,1966,4,2,6,HomeTeam Win
+Mexico,Soviet Union,1970,0,0,0,Draw
+Belgium,El Salvador,1970,3,0,3,HomeTeam Win
+Soviet Union,Belgium,1970,4,1,5,HomeTeam Win
+Mexico,El Salvador,1970,4,0,4,HomeTeam Win
+Soviet Union,El Salvador,1970,2,0,2,HomeTeam Win
+Mexico,Belgium,1970,1,0,1,HomeTeam Win
+Uruguay,Israel,1970,2,0,2,HomeTeam Win
+Italy,Sweden,1970,1,0,1,HomeTeam Win
+Uruguay,Italy,1970,0,0,0,Draw
+Sweden,Israel,1970,1,1,2,Draw
+Sweden,Uruguay,1970,1,0,1,HomeTeam Win
+Italy,Israel,1970,0,0,0,Draw
+England,Romania,1970,1,0,1,HomeTeam Win
+Brazil,Czechoslovakia,1970,4,1,5,HomeTeam Win
+Romania,Czechoslovakia,1970,2,1,3,HomeTeam Win
+Brazil,England,1970,1,0,1,HomeTeam Win
+Brazil,Romania,1970,3,2,5,HomeTeam Win
+England,Czechoslovakia,1970,1,0,1,HomeTeam Win
+Peru,Bulgaria,1970,3,2,5,HomeTeam Win
+West Germany,Morocco,1970,2,1,3,HomeTeam Win
+Peru,Morocco,1970,3,0,3,HomeTeam Win
+West Germany,Bulgaria,1970,5,2,7,HomeTeam Win
+West Germany,Peru,1970,3,1,4,HomeTeam Win
+Bulgaria,Morocco,1970,1,1,2,Draw
+Soviet Union,Uruguay,1970,0,1,1,AwayTeam Win
+Italy,Mexico,1970,4,1,5,HomeTeam Win
+Brazil,Peru,1970,4,2,6,HomeTeam Win
+West Germany,England,1970,3,2,5,HomeTeam Win
+Brazil,Uruguay,1970,3,1,4,HomeTeam Win
+Italy,West Germany,1970,4,3,7,HomeTeam Win
+West Germany,Uruguay,1970,1,0,1,HomeTeam Win
+Brazil,Italy,1970,4,1,5,HomeTeam Win
+West Germany,Chile,1974,1,0,1,HomeTeam Win
+East Germany,Australia,1974,2,0,2,HomeTeam Win
+Australia,West Germany,1974,0,3,3,AwayTeam Win
+Chile,East Germany,1974,1,1,2,Draw
+Australia,Chile,1974,0,0,0,Draw
+East Germany,West Germany,1974,1,0,1,HomeTeam Win
+Brazil,Yugoslavia,1974,0,0,0,Draw
+Zaire,Scotland,1974,0,2,2,AwayTeam Win
+Yugoslavia,Zaire,1974,9,0,9,HomeTeam Win
+Scotland,Brazil,1974,0,0,0,Draw
+Scotland,Yugoslavia,1974,1,1,2,Draw
+Zaire,Brazil,1974,0,3,3,AwayTeam Win
+Uruguay,Netherlands,1974,0,2,2,AwayTeam Win
+Sweden,Bulgaria,1974,0,0,0,Draw
+Bulgaria,Uruguay,1974,1,1,2,Draw
+Netherlands,Sweden,1974,0,0,0,Draw
+Bulgaria,Netherlands,1974,1,4,5,AwayTeam Win
+Sweden,Uruguay,1974,3,0,3,HomeTeam Win
+Italy,Haiti,1974,3,1,4,HomeTeam Win
+Poland,Argentina,1974,3,2,5,HomeTeam Win
+Argentina,Italy,1974,1,1,2,Draw
+Haiti,Poland,1974,0,7,7,AwayTeam Win
+Argentina,Haiti,1974,4,1,5,HomeTeam Win
+Poland,Italy,1974,2,1,3,HomeTeam Win
+Netherlands,Argentina,1974,4,0,4,HomeTeam Win
+Brazil,East Germany,1974,1,0,1,HomeTeam Win
+Argentina,Brazil,1974,1,2,3,AwayTeam Win
+East Germany,Netherlands,1974,0,2,2,AwayTeam Win
+Argentina,East Germany,1974,1,1,2,Draw
+Netherlands,Brazil,1974,2,0,2,HomeTeam Win
+Yugoslavia,West Germany,1974,0,2,2,AwayTeam Win
+Sweden,Poland,1974,0,1,1,AwayTeam Win
+Poland,Yugoslavia,1974,2,1,3,HomeTeam Win
+West Germany,Sweden,1974,4,2,6,HomeTeam Win
+Poland,West Germany,1974,0,1,1,AwayTeam Win
+Sweden,Yugoslavia,1974,2,1,3,HomeTeam Win
+Brazil,Poland,1974,0,1,1,AwayTeam Win
+Netherlands,West Germany,1974,1,2,3,AwayTeam Win
+Italy,France,1978,2,1,3,HomeTeam Win
+Argentina,Hungary,1978,2,1,3,HomeTeam Win
+Italy,Hungary,1978,3,1,4,HomeTeam Win
+Argentina,France,1978,2,1,3,HomeTeam Win
+France,Hungary,1978,3,1,4,HomeTeam Win
+Argentina,Italy,1978,0,1,1,AwayTeam Win
+West Germany,Poland,1978,0,0,0,Draw
+Tunisia,Mexico,1978,3,1,4,HomeTeam Win
+West Germany,Mexico,1978,6,0,6,HomeTeam Win
+Poland,Tunisia,1978,1,0,1,HomeTeam Win
+West Germany,Tunisia,1978,0,0,0,Draw
+Poland,Mexico,1978,3,1,4,HomeTeam Win
+Austria,Spain,1978,2,1,3,HomeTeam Win
+Brazil,Sweden,1978,1,1,2,Draw
+Austria,Sweden,1978,1,0,1,HomeTeam Win
+Brazil,Spain,1978,0,0,0,Draw
+Spain,Sweden,1978,1,0,1,HomeTeam Win
+Brazil,Austria,1978,1,0,1,HomeTeam Win
+Peru,Scotland,1978,3,1,4,HomeTeam Win
+Netherlands,Iran,1978,3,0,3,HomeTeam Win
+Scotland,Iran,1978,1,1,2,Draw
+Netherlands,Peru,1978,0,0,0,Draw
+Peru,Iran,1978,4,1,5,HomeTeam Win
+Scotland,Netherlands,1978,3,2,5,HomeTeam Win
+Austria,Netherlands,1978,1,5,6,AwayTeam Win
+Italy,West Germany,1978,0,0,0,Draw
+Netherlands,West Germany,1978,2,2,4,Draw
+Italy,Austria,1978,1,0,1,HomeTeam Win
+Austria,West Germany,1978,3,2,5,HomeTeam Win
+Italy,Netherlands,1978,1,2,3,AwayTeam Win
+Brazil,Peru,1978,3,0,3,HomeTeam Win
+Argentina,Poland,1978,2,0,2,HomeTeam Win
+Peru,Poland,1978,0,1,1,AwayTeam Win
+Argentina,Brazil,1978,0,0,0,Draw
+Brazil,Poland,1978,3,1,4,HomeTeam Win
+Argentina,Peru,1978,6,0,6,HomeTeam Win
+Brazil,Italy,1978,2,1,3,HomeTeam Win
+Argentina,Netherlands,1978,3,1,4,HomeTeam Win
+Italy,Poland,1982,0,0,0,Draw
+Peru,Cameroon,1982,0,0,0,Draw
+Italy,Peru,1982,1,1,2,Draw
+Poland,Cameroon,1982,0,0,0,Draw
+Poland,Peru,1982,5,1,6,HomeTeam Win
+Italy,Cameroon,1982,1,1,2,Draw
+West Germany,Algeria,1982,1,2,3,AwayTeam Win
+Chile,Austria,1982,0,1,1,AwayTeam Win
+West Germany,Chile,1982,4,1,5,HomeTeam Win
+Algeria,Austria,1982,0,2,2,AwayTeam Win
+Algeria,Chile,1982,3,2,5,HomeTeam Win
+West Germany,Austria,1982,1,0,1,HomeTeam Win
+Argentina,Belgium,1982,0,1,1,AwayTeam Win
+Hungary,El Salvador,1982,10,1,11,HomeTeam Win
+Argentina,Hungary,1982,4,1,5,HomeTeam Win
+Belgium,El Salvador,1982,1,0,1,HomeTeam Win
+Belgium,Hungary,1982,1,1,2,Draw
+Argentina,El Salvador,1982,2,0,2,HomeTeam Win
+England,France,1982,3,1,4,HomeTeam Win
+Czechoslovakia,Kuwait,1982,1,1,2,Draw
+England,Czechoslovakia,1982,2,0,2,HomeTeam Win
+France,Kuwait,1982,4,1,5,HomeTeam Win
+France,Czechoslovakia,1982,1,1,2,Draw
+England,Kuwait,1982,1,0,1,HomeTeam Win
+Spain,Honduras,1982,1,1,2,Draw
+Yugoslavia,Northern Ireland,1982,0,0,0,Draw
+Spain,Yugoslavia,1982,2,1,3,HomeTeam Win
+Honduras,Northern Ireland,1982,1,1,2,Draw
+Honduras,Yugoslavia,1982,0,1,1,AwayTeam Win
+Spain,Northern Ireland,1982,0,1,1,AwayTeam Win
+Brazil,Soviet Union,1982,2,1,3,HomeTeam Win
+Scotland,New Zealand,1982,5,2,7,HomeTeam Win
+Brazil,Scotland,1982,4,1,5,HomeTeam Win
+Soviet Union,New Zealand,1982,3,0,3,HomeTeam Win
+Soviet Union,Scotland,1982,2,2,4,Draw
+Brazil,New Zealand,1982,4,0,4,HomeTeam Win
+Poland,Belgium,1982,3,0,3,HomeTeam Win
+Belgium,Soviet Union,1982,0,1,1,AwayTeam Win
+Soviet Union,Poland,1982,0,0,0,Draw
+West Germany,England,1982,0,0,0,Draw
+West Germany,Spain,1982,2,1,3,HomeTeam Win
+Spain,England,1982,0,0,0,Draw
+Italy,Argentina,1982,2,1,3,HomeTeam Win
+Argentina,Brazil,1982,1,3,4,AwayTeam Win
+Italy,Brazil,1982,3,2,5,HomeTeam Win
+Austria,France,1982,0,1,1,AwayTeam Win
+Austria,Northern Ireland,1982,2,2,4,Draw
+France,Northern Ireland,1982,4,1,5,HomeTeam Win
+Poland,Italy,1982,0,2,2,AwayTeam Win
+West Germany,France,1982,3,3,6,Draw
+Poland,France,1982,3,2,5,HomeTeam Win
+Italy,West Germany,1982,3,1,4,HomeTeam Win
+Bulgaria,Italy,1986,1,1,2,Draw
+Argentina,South Korea,1986,3,1,4,HomeTeam Win
+Italy,Argentina,1986,1,1,2,Draw
+South Korea,Bulgaria,1986,1,1,2,Draw
+South Korea,Italy,1986,2,3,5,AwayTeam Win
+Argentina,Bulgaria,1986,2,0,2,HomeTeam Win
+Belgium,Mexico,1986,1,2,3,AwayTeam Win
+Paraguay,Iraq,1986,1,0,1,HomeTeam Win
+Mexico,Paraguay,1986,1,1,2,Draw
+Iraq,Belgium,1986,1,2,3,AwayTeam Win
+Paraguay,Belgium,1986,2,2,4,Draw
+Iraq,Mexico,1986,0,1,1,AwayTeam Win
+Canada,France,1986,0,1,1,AwayTeam Win
+Soviet Union,Hungary,1986,6,0,6,HomeTeam Win
+France,Soviet Union,1986,1,1,2,Draw
+Hungary,Canada,1986,2,0,2,HomeTeam Win
+Hungary,France,1986,0,3,3,AwayTeam Win
+Soviet Union,Canada,1986,2,0,2,HomeTeam Win
+Spain,Brazil,1986,0,1,1,AwayTeam Win
+Algeria,Northern Ireland,1986,1,1,2,Draw
+Brazil,Algeria,1986,1,0,1,HomeTeam Win
+Northern Ireland,Spain,1986,1,2,3,AwayTeam Win
+Northern Ireland,Brazil,1986,0,3,3,AwayTeam Win
+Algeria,Spain,1986,0,3,3,AwayTeam Win
+Uruguay,West Germany,1986,1,1,2,Draw
+Scotland,Denmark,1986,0,1,1,AwayTeam Win
+West Germany,Scotland,1986,2,1,3,HomeTeam Win
+Denmark,Uruguay,1986,6,1,7,HomeTeam Win
+Denmark,West Germany,1986,2,0,2,HomeTeam Win
+Scotland,Uruguay,1986,0,0,0,Draw
+Morocco,Poland,1986,0,0,0,Draw
+Portugal,England,1986,1,0,1,HomeTeam Win
+England,Morocco,1986,0,0,0,Draw
+Poland,Portugal,1986,1,0,1,HomeTeam Win
+England,Poland,1986,3,0,3,HomeTeam Win
+Portugal,Morocco,1986,1,3,4,AwayTeam Win
+Mexico,Bulgaria,1986,2,0,2,HomeTeam Win
+Soviet Union,Belgium,1986,3,4,7,AwayTeam Win
+Brazil,Poland,1986,4,0,4,HomeTeam Win
+Argentina,Uruguay,1986,1,0,1,HomeTeam Win
+Italy,France,1986,0,2,2,AwayTeam Win
+Morocco,West Germany,1986,0,1,1,AwayTeam Win
+England,Paraguay,1986,3,0,3,HomeTeam Win
+Denmark,Spain,1986,1,5,6,AwayTeam Win
+Brazil,France,1986,1,1,2,Draw
+West Germany,Mexico,1986,0,0,0,Draw
+Argentina,England,1986,2,1,3,HomeTeam Win
+Spain,Belgium,1986,1,1,2,Draw
+France,West Germany,1986,0,2,2,AwayTeam Win
+Argentina,Belgium,1986,2,0,2,HomeTeam Win
+Belgium,France,1986,2,4,6,AwayTeam Win
+Argentina,West Germany,1986,3,2,5,HomeTeam Win
+Cameroon,Colombia,1990,2,1,3,HomeTeam Win
+Czechoslovakia,Costa Rica,1990,4,1,5,HomeTeam Win
+Brazil,Argentina,1990,0,1,1,AwayTeam Win
+West Germany,Netherlands,1990,2,1,3,HomeTeam Win
+Republic of Ireland,Romania,1990,0,0,0,Draw
+Italy,Uruguay,1990,2,0,2,HomeTeam Win
+Spain,Yugoslavia,1990,1,2,3,AwayTeam Win
+England,Belgium,1990,1,0,1,HomeTeam Win
+Argentina,Yugoslavia,1990,0,0,0,Draw
+Republic of Ireland,Italy,1990,0,1,1,AwayTeam Win
+Czechoslovakia,West Germany,1990,0,1,1,AwayTeam Win
+Cameroon,England,1990,2,3,5,AwayTeam Win
+Argentina,Italy,1990,1,1,2,Draw
+West Germany,England,1990,1,1,2,Draw
+Italy,England,1990,2,1,3,HomeTeam Win
+West Germany,Argentina,1990,1,0,1,HomeTeam Win
+United States,Switzerland,1994,1,1,2,Draw
+Colombia,Romania,1994,1,3,4,AwayTeam Win
+Romania,Switzerland,1994,1,4,5,AwayTeam Win
+United States,Colombia,1994,2,1,3,HomeTeam Win
+Switzerland,Colombia,1994,0,2,2,AwayTeam Win
+United States,Romania,1994,0,1,1,AwayTeam Win
+Cameroon,Sweden,1994,2,2,4,Draw
+Brazil,Russia,1994,2,0,2,HomeTeam Win
+Brazil,Cameroon,1994,3,0,3,HomeTeam Win
+Sweden,Russia,1994,3,1,4,HomeTeam Win
+Russia,Cameroon,1994,6,1,7,HomeTeam Win
+Brazil,Sweden,1994,1,1,2,Draw
+Germany,Bolivia,1994,1,0,1,HomeTeam Win
+Spain,South Korea,1994,2,2,4,Draw
+Germany,Spain,1994,1,1,2,Draw
+South Korea,Bolivia,1994,0,0,0,Draw
+Bolivia,Spain,1994,1,3,4,AwayTeam Win
+Germany,South Korea,1994,3,2,5,HomeTeam Win
+Argentina,Greece,1994,4,0,4,HomeTeam Win
+Nigeria,Bulgaria,1994,3,0,3,HomeTeam Win
+Argentina,Nigeria,1994,2,1,3,HomeTeam Win
+Bulgaria,Greece,1994,4,0,4,HomeTeam Win
+Argentina,Bulgaria,1994,0,2,2,AwayTeam Win
+Greece,Nigeria,1994,0,2,2,AwayTeam Win
+Italy,Republic of Ireland,1994,0,1,1,AwayTeam Win
+Norway,Mexico,1994,1,0,1,HomeTeam Win
+Italy,Norway,1994,1,0,1,HomeTeam Win
+Mexico,Republic of Ireland,1994,2,1,3,HomeTeam Win
+Italy,Mexico,1994,1,1,2,Draw
+Republic of Ireland,Norway,1994,0,0,0,Draw
+Belgium,Morocco,1994,1,0,1,HomeTeam Win
+Netherlands,Saudi Arabia,1994,2,1,3,HomeTeam Win
+Belgium,Netherlands,1994,1,0,1,HomeTeam Win
+Saudi Arabia,Morocco,1994,2,1,3,HomeTeam Win
+Belgium,Saudi Arabia,1994,0,1,1,AwayTeam Win
+Morocco,Netherlands,1994,1,2,3,AwayTeam Win
+Germany,Belgium,1994,3,2,5,HomeTeam Win
+Spain,Switzerland,1994,3,0,3,HomeTeam Win
+Saudi Arabia,Sweden,1994,1,3,4,AwayTeam Win
+Romania,Argentina,1994,3,2,5,HomeTeam Win
+Netherlands,Republic of Ireland,1994,2,0,2,HomeTeam Win
+Brazil,United States,1994,1,0,1,HomeTeam Win
+Nigeria,Italy,1994,1,2,3,AwayTeam Win
+Mexico,Bulgaria,1994,1,1,2,Draw
+Italy,Spain,1994,2,1,3,HomeTeam Win
+Netherlands,Brazil,1994,2,3,5,AwayTeam Win
+Bulgaria,Germany,1994,2,1,3,HomeTeam Win
+Romania,Sweden,1994,2,2,4,Draw
+Bulgaria,Italy,1994,1,2,3,AwayTeam Win
+Sweden,Brazil,1994,0,1,1,AwayTeam Win
+Sweden,Bulgaria,1994,4,0,4,HomeTeam Win
+Brazil,Italy,1994,0,0,0,Draw
+Brazil,Scotland,1998,2,1,3,HomeTeam Win
+Morocco,Norway,1998,2,2,4,Draw
+Scotland,Norway,1998,1,1,2,Draw
+Brazil,Morocco,1998,3,0,3,HomeTeam Win
+Scotland,Morocco,1998,0,3,3,AwayTeam Win
+Brazil,Norway,1998,1,2,3,AwayTeam Win
+Italy,Chile,1998,2,2,4,Draw
+Cameroon,Austria,1998,1,1,2,Draw
+Chile,Austria,1998,1,1,2,Draw
+Italy,Cameroon,1998,3,0,3,HomeTeam Win
+Italy,Austria,1998,2,1,3,HomeTeam Win
+Chile,Cameroon,1998,1,1,2,Draw
+Saudi Arabia,Denmark,1998,0,1,1,AwayTeam Win
+France,South Africa,1998,3,0,3,HomeTeam Win
+South Africa,Denmark,1998,1,1,2,Draw
+France,Saudi Arabia,1998,4,0,4,HomeTeam Win
+France,Denmark,1998,2,1,3,HomeTeam Win
+South Africa,Saudi Arabia,1998,2,2,4,Draw
+Paraguay,Bulgaria,1998,0,0,0,Draw
+Spain,Nigeria,1998,2,3,5,AwayTeam Win
+Nigeria,Bulgaria,1998,1,0,1,HomeTeam Win
+Spain,Paraguay,1998,0,0,0,Draw
+Nigeria,Paraguay,1998,1,3,4,AwayTeam Win
+Spain,Bulgaria,1998,6,1,7,HomeTeam Win
+South Korea,Mexico,1998,1,3,4,AwayTeam Win
+Netherlands,Belgium,1998,0,0,0,Draw
+Belgium,Mexico,1998,2,2,4,Draw
+Netherlands,South Korea,1998,5,0,5,HomeTeam Win
+Netherlands,Mexico,1998,2,2,4,Draw
+Belgium,South Korea,1998,1,1,2,Draw
+FR Yugoslavia,Iran,1998,1,0,1,HomeTeam Win
+Germany,United States,1998,2,0,2,HomeTeam Win
+Germany,FR Yugoslavia,1998,2,2,4,Draw
+United States,Iran,1998,1,2,3,AwayTeam Win
+Germany,Iran,1998,2,0,2,HomeTeam Win
+United States,FR Yugoslavia,1998,0,1,1,AwayTeam Win
+England,Tunisia,1998,2,0,2,HomeTeam Win
+Romania,Colombia,1998,1,0,1,HomeTeam Win
+Colombia,Tunisia,1998,1,0,1,HomeTeam Win
+Romania,England,1998,2,1,3,HomeTeam Win
+Colombia,England,1998,0,2,2,AwayTeam Win
+Romania,Tunisia,1998,1,1,2,Draw
+Argentina,Japan,1998,1,0,1,HomeTeam Win
+Jamaica,Croatia,1998,1,3,4,AwayTeam Win
+Japan,Croatia,1998,0,1,1,AwayTeam Win
+Argentina,Jamaica,1998,5,0,5,HomeTeam Win
+Argentina,Croatia,1998,1,0,1,HomeTeam Win
+Japan,Jamaica,1998,1,2,3,AwayTeam Win
+Italy,Norway,1998,1,0,1,HomeTeam Win
+Brazil,Chile,1998,4,1,5,HomeTeam Win
+France,Paraguay,1998,1,0,1,HomeTeam Win
+Nigeria,Denmark,1998,1,4,5,AwayTeam Win
+Germany,Mexico,1998,2,1,3,HomeTeam Win
+Netherlands,FR Yugoslavia,1998,2,1,3,HomeTeam Win
+Romania,Croatia,1998,0,1,1,AwayTeam Win
+Argentina,England,1998,2,2,4,Draw
+Italy,France,1998,0,0,0,Draw
+Brazil,Denmark,1998,3,2,5,HomeTeam Win
+Netherlands,Argentina,1998,2,1,3,HomeTeam Win
+Germany,Croatia,1998,0,3,3,AwayTeam Win
+Brazil,Netherlands,1998,1,1,2,Draw
+France,Croatia,1998,2,1,3,HomeTeam Win
+Netherlands,Croatia,1998,1,2,3,AwayTeam Win
+Brazil,France,1998,0,3,3,AwayTeam Win
+France,Senegal,2002,0,1,1,AwayTeam Win
+Uruguay,Denmark,2002,1,2,3,AwayTeam Win
+Denmark,Senegal,2002,1,1,2,Draw
+France,Uruguay,2002,0,0,0,Draw
+Denmark,France,2002,2,0,2,HomeTeam Win
+Senegal,Uruguay,2002,3,3,6,Draw
+Paraguay,South Africa,2002,2,2,4,Draw
+Spain,Slovenia,2002,3,1,4,HomeTeam Win
+Spain,Paraguay,2002,3,1,4,HomeTeam Win
+South Africa,Slovenia,2002,1,0,1,HomeTeam Win
+South Africa,Spain,2002,2,3,5,AwayTeam Win
+Slovenia,Paraguay,2002,1,3,4,AwayTeam Win
+Brazil,Turkey,2002,2,1,3,HomeTeam Win
+China,Costa Rica,2002,0,2,2,AwayTeam Win
+Brazil,China,2002,4,0,4,HomeTeam Win
+Costa Rica,Turkey,2002,1,1,2,Draw
+Costa Rica,Brazil,2002,2,5,7,AwayTeam Win
+Turkey,China,2002,3,0,3,HomeTeam Win
+South Korea,Poland,2002,2,0,2,HomeTeam Win
+United States,Portugal,2002,3,2,5,HomeTeam Win
+South Korea,United States,2002,1,1,2,Draw
+Portugal,Poland,2002,4,0,4,HomeTeam Win
+Portugal,South Korea,2002,0,1,1,AwayTeam Win
+Poland,United States,2002,3,1,4,HomeTeam Win
+Republic of Ireland,Cameroon,2002,1,1,2,Draw
+Germany,Saudi Arabia,2002,8,0,8,HomeTeam Win
+Germany,Republic of Ireland,2002,1,1,2,Draw
+Cameroon,Saudi Arabia,2002,1,0,1,HomeTeam Win
+Cameroon,Germany,2002,0,2,2,AwayTeam Win
+Saudi Arabia,Republic of Ireland,2002,0,3,3,AwayTeam Win
+Argentina,Nigeria,2002,1,0,1,HomeTeam Win
+England,Sweden,2002,1,1,2,Draw
+Sweden,Nigeria,2002,2,1,3,HomeTeam Win
+Argentina,England,2002,0,1,1,AwayTeam Win
+Sweden,Argentina,2002,1,1,2,Draw
+Nigeria,England,2002,0,0,0,Draw
+Croatia,Mexico,2002,0,1,1,AwayTeam Win
+Italy,Ecuador,2002,2,0,2,HomeTeam Win
+Italy,Croatia,2002,1,2,3,AwayTeam Win
+Mexico,Ecuador,2002,2,1,3,HomeTeam Win
+Mexico,Italy,2002,1,1,2,Draw
+Ecuador,Croatia,2002,1,0,1,HomeTeam Win
+Japan,Belgium,2002,2,2,4,Draw
+Russia,Tunisia,2002,2,0,2,HomeTeam Win
+Japan,Russia,2002,1,0,1,HomeTeam Win
+Tunisia,Belgium,2002,1,1,2,Draw
+Tunisia,Japan,2002,0,2,2,AwayTeam Win
+Belgium,Russia,2002,3,2,5,HomeTeam Win
+Germany,Paraguay,2002,1,0,1,HomeTeam Win
+Denmark,England,2002,0,3,3,AwayTeam Win
+Sweden,Senegal,2002,1,2,3,AwayTeam Win
+Spain,Republic of Ireland,2002,1,1,2,Draw
+Mexico,United States,2002,0,2,2,AwayTeam Win
+Brazil,Belgium,2002,2,0,2,HomeTeam Win
+Japan,Turkey,2002,0,1,1,AwayTeam Win
+South Korea,Italy,2002,2,1,3,HomeTeam Win
+England,Brazil,2002,1,2,3,AwayTeam Win
+Germany,United States,2002,1,0,1,HomeTeam Win
+Spain,South Korea,2002,0,0,0,Draw
+Senegal,Turkey,2002,0,1,1,AwayTeam Win
+Germany,South Korea,2002,1,0,1,HomeTeam Win
+Brazil,Turkey,2002,1,0,1,HomeTeam Win
+South Korea,Turkey,2002,2,3,5,AwayTeam Win
+Germany,Brazil,2002,0,2,2,AwayTeam Win
+Germany,Costa Rica,2006,4,2,6,HomeTeam Win
+Poland,Ecuador,2006,0,2,2,AwayTeam Win
+Germany,Poland,2006,1,0,1,HomeTeam Win
+Ecuador,Costa Rica,2006,3,0,3,HomeTeam Win
+Ecuador,Germany,2006,0,3,3,AwayTeam Win
+Costa Rica,Poland,2006,1,2,3,AwayTeam Win
+England,Paraguay,2006,1,0,1,HomeTeam Win
+Trinidad and Tobago,Sweden,2006,0,0,0,Draw
+England,Trinidad and Tobago,2006,2,0,2,HomeTeam Win
+Sweden,Paraguay,2006,1,0,1,HomeTeam Win
+Sweden,England,2006,2,2,4,Draw
+Paraguay,Trinidad and Tobago,2006,2,0,2,HomeTeam Win
+Argentina,Ivory Coast,2006,2,1,3,HomeTeam Win
+Serbia and Montenegro,Netherlands,2006,0,1,1,AwayTeam Win
+Argentina,Serbia and Montenegro,2006,6,0,6,HomeTeam Win
+Netherlands,Ivory Coast,2006,2,1,3,HomeTeam Win
+Netherlands,Argentina,2006,0,0,0,Draw
+Ivory Coast,Serbia and Montenegro,2006,3,2,5,HomeTeam Win
+Mexico,Iran,2006,3,1,4,HomeTeam Win
+Angola,Portugal,2006,0,1,1,AwayTeam Win
+Mexico,Angola,2006,0,0,0,Draw
+Portugal,Iran,2006,2,0,2,HomeTeam Win
+Portugal,Mexico,2006,2,1,3,HomeTeam Win
+Iran,Angola,2006,1,1,2,Draw
+United States,Czech Republic,2006,0,3,3,AwayTeam Win
+Italy,Ghana,2006,2,0,2,HomeTeam Win
+Czech Republic,Ghana,2006,0,2,2,AwayTeam Win
+Italy,United States,2006,1,1,2,Draw
+Czech Republic,Italy,2006,0,2,2,AwayTeam Win
+Ghana,United States,2006,2,1,3,HomeTeam Win
+Australia,Japan,2006,3,1,4,HomeTeam Win
+Brazil,Croatia,2006,1,0,1,HomeTeam Win
+Japan,Croatia,2006,0,0,0,Draw
+Brazil,Australia,2006,2,0,2,HomeTeam Win
+Japan,Brazil,2006,1,4,5,AwayTeam Win
+Croatia,Australia,2006,2,2,4,Draw
+South Korea,Togo,2006,2,1,3,HomeTeam Win
+France,Switzerland,2006,0,0,0,Draw
+France,South Korea,2006,1,1,2,Draw
+Togo,Switzerland,2006,0,2,2,AwayTeam Win
+Togo,France,2006,0,2,2,AwayTeam Win
+Switzerland,South Korea,2006,2,0,2,HomeTeam Win
+Spain,Ukraine,2006,4,0,4,HomeTeam Win
+Tunisia,Saudi Arabia,2006,2,2,4,Draw
+Saudi Arabia,Ukraine,2006,0,4,4,AwayTeam Win
+Spain,Tunisia,2006,3,1,4,HomeTeam Win
+Saudi Arabia,Spain,2006,0,1,1,AwayTeam Win
+Ukraine,Tunisia,2006,1,0,1,HomeTeam Win
+Germany,Sweden,2006,2,0,2,HomeTeam Win
+Argentina,Mexico,2006,2,1,3,HomeTeam Win
+England,Ecuador,2006,1,0,1,HomeTeam Win
+Portugal,Netherlands,2006,1,0,1,HomeTeam Win
+Italy,Australia,2006,1,0,1,HomeTeam Win
+Switzerland,Ukraine,2006,0,0,0,Draw
+Brazil,Ghana,2006,3,0,3,HomeTeam Win
+Spain,France,2006,1,3,4,AwayTeam Win
+Germany,Argentina,2006,1,1,2,Draw
+Italy,Ukraine,2006,3,0,3,HomeTeam Win
+England,Portugal,2006,0,0,0,Draw
+Brazil,France,2006,0,1,1,AwayTeam Win
+Germany,Italy,2006,0,2,2,AwayTeam Win
+Portugal,France,2006,0,1,1,AwayTeam Win
+Germany,Portugal,2006,3,1,4,HomeTeam Win
+Italy,France,2006,1,1,2,Draw
+South Africa,Mexico,2010,1,1,2,Draw
+Uruguay,France,2010,0,0,0,Draw
+South Africa,Uruguay,2010,0,3,3,AwayTeam Win
+France,Mexico,2010,0,2,2,AwayTeam Win
+Mexico,Uruguay,2010,0,1,1,AwayTeam Win
+France,South Africa,2010,1,2,3,AwayTeam Win
+South Korea,Greece,2010,2,0,2,HomeTeam Win
+Argentina,Nigeria,2010,1,0,1,HomeTeam Win
+Argentina,South Korea,2010,4,1,5,HomeTeam Win
+Greece,Nigeria,2010,2,1,3,HomeTeam Win
+Nigeria,South Korea,2010,2,2,4,Draw
+Greece,Argentina,2010,0,2,2,AwayTeam Win
+England,United States,2010,1,1,2,Draw
+Algeria,Slovenia,2010,0,1,1,AwayTeam Win
+Slovenia,United States,2010,2,2,4,Draw
+England,Algeria,2010,0,0,0,Draw
+Slovenia,England,2010,0,1,1,AwayTeam Win
+United States,Algeria,2010,1,0,1,HomeTeam Win
+Serbia,Ghana,2010,0,1,1,AwayTeam Win
+Germany,Australia,2010,4,0,4,HomeTeam Win
+Germany,Serbia,2010,0,1,1,AwayTeam Win
+Ghana,Australia,2010,1,1,2,Draw
+Ghana,Germany,2010,0,1,1,AwayTeam Win
+Australia,Serbia,2010,2,1,3,HomeTeam Win
+Netherlands,Denmark,2010,2,0,2,HomeTeam Win
+Japan,Cameroon,2010,1,0,1,HomeTeam Win
+Netherlands,Japan,2010,1,0,1,HomeTeam Win
+Cameroon,Denmark,2010,1,2,3,AwayTeam Win
+Denmark,Japan,2010,1,3,4,AwayTeam Win
+Cameroon,Netherlands,2010,1,2,3,AwayTeam Win
+Italy,Paraguay,2010,1,1,2,Draw
+New Zealand,Slovakia,2010,1,1,2,Draw
+Slovakia,Paraguay,2010,0,2,2,AwayTeam Win
+Italy,New Zealand,2010,1,1,2,Draw
+Slovakia,Italy,2010,3,2,5,HomeTeam Win
+Paraguay,New Zealand,2010,0,0,0,Draw
+Ivory Coast,Portugal,2010,0,0,0,Draw
+Brazil,North Korea,2010,2,1,3,HomeTeam Win
+Brazil,Ivory Coast,2010,3,1,4,HomeTeam Win
+Portugal,North Korea,2010,7,0,7,HomeTeam Win
+Portugal,Brazil,2010,0,0,0,Draw
+North Korea,Ivory Coast,2010,0,3,3,AwayTeam Win
+Honduras,Chile,2010,0,1,1,AwayTeam Win
+Spain,Switzerland,2010,0,1,1,AwayTeam Win
+Chile,Switzerland,2010,1,0,1,HomeTeam Win
+Spain,Honduras,2010,2,0,2,HomeTeam Win
+Chile,Spain,2010,1,2,3,AwayTeam Win
+Switzerland,Honduras,2010,0,0,0,Draw
+Uruguay,South Korea,2010,2,1,3,HomeTeam Win
+United States,Ghana,2010,1,2,3,AwayTeam Win
+Germany,England,2010,4,1,5,HomeTeam Win
+Argentina,Mexico,2010,3,1,4,HomeTeam Win
+Netherlands,Slovakia,2010,2,1,3,HomeTeam Win
+Brazil,Chile,2010,3,0,3,HomeTeam Win
+Paraguay,Japan,2010,0,0,0,Draw
+Spain,Portugal,2010,1,0,1,HomeTeam Win
+Netherlands,Brazil,2010,2,1,3,HomeTeam Win
+Uruguay,Ghana,2010,1,1,2,Draw
+Argentina,Germany,2010,0,4,4,AwayTeam Win
+Paraguay,Spain,2010,0,1,1,AwayTeam Win
+Uruguay,Netherlands,2010,2,3,5,AwayTeam Win
+Germany,Spain,2010,0,1,1,AwayTeam Win
+Uruguay,Germany,2010,2,3,5,AwayTeam Win
+Netherlands,Spain,2010,0,1,1,AwayTeam Win
+Brazil,Croatia,2014,3,1,4,HomeTeam Win
+Mexico,Cameroon,2014,1,0,1,HomeTeam Win
+Brazil,Mexico,2014,0,0,0,Draw
+Cameroon,Croatia,2014,0,4,4,AwayTeam Win
+Cameroon,Brazil,2014,1,4,5,AwayTeam Win
+Croatia,Mexico,2014,1,3,4,AwayTeam Win
+Spain,Netherlands,2014,1,5,6,AwayTeam Win
+Chile,Australia,2014,3,1,4,HomeTeam Win
+Australia,Netherlands,2014,2,3,5,AwayTeam Win
+Spain,Chile,2014,0,2,2,AwayTeam Win
+Australia,Spain,2014,0,3,3,AwayTeam Win
+Netherlands,Chile,2014,2,0,2,HomeTeam Win
+Colombia,Greece,2014,3,0,3,HomeTeam Win
+Ivory Coast,Japan,2014,2,1,3,HomeTeam Win
+Colombia,Ivory Coast,2014,2,1,3,HomeTeam Win
+Japan,Greece,2014,0,0,0,Draw
+Japan,Colombia,2014,1,4,5,AwayTeam Win
+Greece,Ivory Coast,2014,2,1,3,HomeTeam Win
+Uruguay,Costa Rica,2014,1,3,4,AwayTeam Win
+England,Italy,2014,1,2,3,AwayTeam Win
+Uruguay,England,2014,2,1,3,HomeTeam Win
+Italy,Costa Rica,2014,0,1,1,AwayTeam Win
+Italy,Uruguay,2014,0,1,1,AwayTeam Win
+Costa Rica,England,2014,0,0,0,Draw
+Switzerland,Ecuador,2014,2,1,3,HomeTeam Win
+France,Honduras,2014,3,0,3,HomeTeam Win
+Switzerland,France,2014,2,5,7,AwayTeam Win
+Honduras,Ecuador,2014,1,2,3,AwayTeam Win
+Honduras,Switzerland,2014,0,3,3,AwayTeam Win
+Ecuador,France,2014,0,0,0,Draw
+Argentina,Bosnia and Herzegovina,2014,2,1,3,HomeTeam Win
+Iran,Nigeria,2014,0,0,0,Draw
+Argentina,Iran,2014,1,0,1,HomeTeam Win
+Nigeria,Bosnia and Herzegovina,2014,1,0,1,HomeTeam Win
+Nigeria,Argentina,2014,2,3,5,AwayTeam Win
+Bosnia and Herzegovina,Iran,2014,3,1,4,HomeTeam Win
+Germany,Portugal,2014,4,0,4,HomeTeam Win
+Ghana,United States,2014,1,2,3,AwayTeam Win
+Germany,Ghana,2014,2,2,4,Draw
+United States,Portugal,2014,2,2,4,Draw
+United States,Germany,2014,0,1,1,AwayTeam Win
+Portugal,Ghana,2014,2,1,3,HomeTeam Win
+Belgium,Algeria,2014,2,1,3,HomeTeam Win
+Russia,South Korea,2014,1,1,2,Draw
+Belgium,Russia,2014,1,0,1,HomeTeam Win
+South Korea,Algeria,2014,2,4,6,AwayTeam Win
+South Korea,Belgium,2014,0,1,1,AwayTeam Win
+Algeria,Russia,2014,1,1,2,Draw
+Brazil,Chile,2014,1,1,2,Draw
+Colombia,Uruguay,2014,2,0,2,HomeTeam Win
+Netherlands,Mexico,2014,2,1,3,HomeTeam Win
+Costa Rica,Greece,2014,1,1,2,Draw
+France,Nigeria,2014,2,0,2,HomeTeam Win
+Germany,Algeria,2014,2,1,3,HomeTeam Win
+Argentina,Switzerland,2014,1,0,1,HomeTeam Win
+Belgium,United States,2014,2,1,3,HomeTeam Win
+France,Germany,2014,0,1,1,AwayTeam Win
+Brazil,Colombia,2014,2,1,3,HomeTeam Win
+Argentina,Belgium,2014,1,0,1,HomeTeam Win
+Netherlands,Costa Rica,2014,0,0,0,Draw
+Brazil,Germany,2014,1,7,8,AwayTeam Win
+Netherlands,Argentina,2014,0,0,0,Draw
+Brazil,Netherlands,2014,0,3,3,AwayTeam Win
+Germany,Argentina,2014,1,0,1,HomeTeam Win
+Russia,Saudi Arabia,2018,5,0,5,HomeTeam Win
+Egypt,Uruguay,2018,0,1,1,AwayTeam Win
+Russia,Egypt,2018,3,1,4,HomeTeam Win
+Uruguay,Saudi Arabia,2018,1,0,1,HomeTeam Win
+Uruguay,Russia,2018,3,0,3,HomeTeam Win
+Saudi Arabia,Egypt,2018,2,1,3,HomeTeam Win
+Morocco,Iran,2018,0,1,1,AwayTeam Win
+Portugal,Spain,2018,3,3,6,Draw
+Portugal,Morocco,2018,1,0,1,HomeTeam Win
+Iran,Spain,2018,0,1,1,AwayTeam Win
+Iran,Portugal,2018,1,1,2,Draw
+Spain,Morocco,2018,2,2,4,Draw
+France,Australia,2018,2,1,3,HomeTeam Win
+Peru,Denmark,2018,0,1,1,AwayTeam Win
+Denmark,Australia,2018,1,1,2,Draw
+France,Peru,2018,1,0,1,HomeTeam Win
+Denmark,France,2018,0,0,0,Draw
+Australia,Peru,2018,0,2,2,AwayTeam Win
+Argentina,Iceland,2018,1,1,2,Draw
+Croatia,Nigeria,2018,2,0,2,HomeTeam Win
+Argentina,Croatia,2018,0,3,3,AwayTeam Win
+Nigeria,Iceland,2018,2,0,2,HomeTeam Win
+Nigeria,Argentina,2018,1,2,3,AwayTeam Win
+Iceland,Croatia,2018,1,2,3,AwayTeam Win
+Costa Rica,Serbia,2018,0,1,1,AwayTeam Win
+Brazil,Switzerland,2018,1,1,2,Draw
+Brazil,Costa Rica,2018,2,0,2,HomeTeam Win
+Serbia,Switzerland,2018,1,2,3,AwayTeam Win
+Serbia,Brazil,2018,0,2,2,AwayTeam Win
+Switzerland,Costa Rica,2018,2,2,4,Draw
+Germany,Mexico,2018,0,1,1,AwayTeam Win
+Sweden,South Korea,2018,1,0,1,HomeTeam Win
+South Korea,Mexico,2018,1,2,3,AwayTeam Win
+Germany,Sweden,2018,2,1,3,HomeTeam Win
+South Korea,Germany,2018,2,0,2,HomeTeam Win
+Mexico,Sweden,2018,0,3,3,AwayTeam Win
+Belgium,Panama,2018,3,0,3,HomeTeam Win
+Tunisia,England,2018,1,2,3,AwayTeam Win
+Belgium,Tunisia,2018,5,2,7,HomeTeam Win
+England,Panama,2018,6,1,7,HomeTeam Win
+England,Belgium,2018,0,1,1,AwayTeam Win
+Panama,Tunisia,2018,1,2,3,AwayTeam Win
+Colombia,Japan,2018,1,2,3,AwayTeam Win
+Poland,Senegal,2018,1,2,3,AwayTeam Win
+Japan,Senegal,2018,2,2,4,Draw
+Poland,Colombia,2018,0,3,3,AwayTeam Win
+Japan,Poland,2018,0,1,1,AwayTeam Win
+Senegal,Colombia,2018,0,1,1,AwayTeam Win
+France,Argentina,2018,4,3,7,HomeTeam Win
+Uruguay,Portugal,2018,2,1,3,HomeTeam Win
+Spain,Russia,2018,1,1,2,Draw
+Croatia,Denmark,2018,1,1,2,Draw
+Brazil,Mexico,2018,2,0,2,HomeTeam Win
+Belgium,Japan,2018,3,2,5,HomeTeam Win
+Sweden,Switzerland,2018,1,0,1,HomeTeam Win
+Colombia,England,2018,1,1,2,Draw
+Uruguay,France,2018,0,2,2,AwayTeam Win
+Brazil,Belgium,2018,1,2,3,AwayTeam Win
+Sweden,England,2018,0,2,2,AwayTeam Win
+Russia,Croatia,2018,2,2,4,Draw
+France,Belgium,2018,1,0,1,HomeTeam Win
+Croatia,England,2018,2,1,3,HomeTeam Win
+Belgium,England,2018,2,0,2,HomeTeam Win
+France,Croatia,2018,4,2,6,HomeTeam Win
+Qatar,Ecuador,2022,0,2,2,AwayTeam Win
+Senegal,Netherlands,2022,0,2,2,AwayTeam Win
+Qatar,Senegal,2022,1,3,4,AwayTeam Win
+Netherlands,Ecuador,2022,1,1,2,Draw
+Ecuador,Senegal,2022,1,2,3,AwayTeam Win
+Netherlands,Qatar,2022,2,0,2,HomeTeam Win
+England,Iran,2022,6,2,8,HomeTeam Win
+United States,Wales,2022,1,1,2,Draw
+Wales,Iran,2022,0,2,2,AwayTeam Win
+England,United States,2022,0,0,0,Draw
+Wales,England,2022,0,3,3,AwayTeam Win
+Iran,United States,2022,0,1,1,AwayTeam Win
+Argentina,Saudi Arabia,2022,1,2,3,AwayTeam Win
+Mexico,Poland,2022,0,0,0,Draw
+Poland,Saudi Arabia,2022,2,0,2,HomeTeam Win
+Argentina,Mexico,2022,2,0,2,HomeTeam Win
+Poland,Argentina,2022,0,2,2,AwayTeam Win
+Saudi Arabia,Mexico,2022,1,2,3,AwayTeam Win
+Denmark,Tunisia,2022,0,0,0,Draw
+France,Australia,2022,4,1,5,HomeTeam Win
+Tunisia,Australia,2022,0,1,1,AwayTeam Win
+France,Denmark,2022,2,1,3,HomeTeam Win
+Australia,Denmark,2022,1,0,1,HomeTeam Win
+Tunisia,France,2022,1,0,1,HomeTeam Win
+Germany,Japan,2022,1,2,3,AwayTeam Win
+Spain,Costa Rica,2022,7,0,7,HomeTeam Win
+Japan,Costa Rica,2022,0,1,1,AwayTeam Win
+Spain,Germany,2022,1,1,2,Draw
+Japan,Spain,2022,2,1,3,HomeTeam Win
+Costa Rica,Germany,2022,2,4,6,AwayTeam Win
+Morocco,Croatia,2022,0,0,0,Draw
+Belgium,Canada,2022,1,0,1,HomeTeam Win
+Belgium,Morocco,2022,0,2,2,AwayTeam Win
+Croatia,Canada,2022,4,1,5,HomeTeam Win
+Croatia,Belgium,2022,0,0,0,Draw
+Canada,Morocco,2022,1,2,3,AwayTeam Win
+Switzerland,Cameroon,2022,1,0,1,HomeTeam Win
+Brazil,Serbia,2022,2,0,2,HomeTeam Win
+Cameroon,Serbia,2022,3,3,6,Draw
+Brazil,Switzerland,2022,1,0,1,HomeTeam Win
+Serbia,Switzerland,2022,2,3,5,AwayTeam Win
+Cameroon,Brazil,2022,1,0,1,HomeTeam Win
+Uruguay,South Korea,2022,0,0,0,Draw
+Portugal,Ghana,2022,3,2,5,HomeTeam Win
+South Korea,Ghana,2022,2,3,5,AwayTeam Win
+Portugal,Uruguay,2022,2,0,2,HomeTeam Win
+Ghana,Uruguay,2022,0,2,2,AwayTeam Win
+South Korea,Portugal,2022,2,1,3,HomeTeam Win
+Netherlands,United States,2022,3,1,4,HomeTeam Win
+Argentina,Australia,2022,2,1,3,HomeTeam Win
+France,Poland,2022,3,1,4,HomeTeam Win
+England,Senegal,2022,3,0,3,HomeTeam Win
+Japan,Croatia,2022,1,1,2,Draw
+Brazil,South Korea,2022,4,1,5,HomeTeam Win
+Morocco,Spain,2022,0,0,0,Draw
+Portugal,Switzerland,2022,6,1,7,HomeTeam Win
+Croatia,Brazil,2022,1,1,2,Draw
+Netherlands,Argentina,2022,2,2,4,Draw
+Morocco,Portugal,2022,1,0,1,HomeTeam Win
+England,France,2022,1,2,3,AwayTeam Win
+Argentina,Croatia,2022,3,0,3,HomeTeam Win
+France,Morocco,2022,2,0,2,HomeTeam Win
+Croatia,Morocco,2022,2,1,3,HomeTeam Win
+Argentina,France,2022,3,3,6,Draw
