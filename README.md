@@ -10,7 +10,7 @@
 ---
 
 ## 🌐 Live Dashboard
-👉 [https://your-username.github.io/repo-name/](https://kunalkongari.github.io/FifaWorldCupOracle-ML/)
+👉 [https://kunalkongari.github.io/FifaWorldCupOracle-ML/](https://kunalkongari.github.io/FifaWorldCupOracle-ML/)
 
 ## 📌 Table of Contents
 
