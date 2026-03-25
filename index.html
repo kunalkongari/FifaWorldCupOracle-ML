@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0053)https://kunalkongari.github.io/FifaWorldCupOracle-ML/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FIFA 2026 World Cup Predictor</title>
-<script src="./index_files/chart.umd.min.js.download"></script>
+<title>FifaWorldCupOracle-ML (FIFA 2026 World Cup Predictor)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
   :root {
     --bg: #0a0e1a;
@@ -133,21 +133,21 @@
 <header>
   <div class="logo">⚽</div>
   <div>
-    <h1>FIFA 2026 World Cup Predictor <span class="badge">ML</span></h1>
-    <p>XGBoost + ELO Ratings + Monte Carlo Simulation &nbsp;·&nbsp; 10,000 simulations &nbsp;·&nbsp; 928 historical matches (1930–2022) | KUNAL KONGARI (IISc Bangalore)</p>
+    <h1>FifaWorldCupOracle-ML (FIFA 2026 World Cup Predictor) <span class="badge">ML</span></h1>
+    <p>XGBoost + ELO Ratings + Monte Carlo Simulation &nbsp;·&nbsp; 10,000 simulations &nbsp;·&nbsp; 928 historical matches (1930–2022) &nbsp;·&nbsp; KUNAL KONGARI (IISc Bangalore)</p>
   </div>
 </header>
 
 <nav>
-  <div class="tab" onclick="showTab(&#39;odds&#39;, this)">Win Odds</div>
-  <div class="tab" onclick="showTab(&#39;predictor&#39;, this)">Match Predictor</div>
-  <div class="tab" onclick="showTab(&#39;elo&#39;, this)">ELO Rankings</div>
-  <div class="tab" onclick="showTab(&#39;groups&#39;, this)">Groups</div>
-  <div class="tab active" onclick="showTab(&#39;model&#39;, this)">Model Info</div>
+  <div class="tab active" onclick="showTab('odds', this)">Win Odds</div>
+  <div class="tab" onclick="showTab('predictor', this)">Match Predictor</div>
+  <div class="tab" onclick="showTab('elo', this)">ELO Rankings</div>
+  <div class="tab" onclick="showTab('groups', this)">Groups</div>
+  <div class="tab" onclick="showTab('model', this)">Model Info</div>
 </nav>
 
 <!-- ── TAB 1: Win Odds ── -->
-<div id="tab-odds" class="tab-content">
+<div id="tab-odds" class="tab-content active">
   <div class="grid grid-4" style="margin-bottom:24px">
     <div class="card">
       <h3>Top Favourite</h3>
@@ -174,214 +174,22 @@
   <div class="grid grid-2">
     <div class="card">
       <h3>Tournament win probability — top 16</h3>
-      <div id="win-list">
-      <div class="team-row">
-        <span class="rank-num">1</span>
-        <span class="team-name">France</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:100%"></div></div>
-        <span class="pct-val">22.4%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">2</span>
-        <span class="team-name">Netherlands</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:86.60714285714286%"></div></div>
-        <span class="pct-val">19.4%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">3</span>
-        <span class="team-name">Brazil</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:37.50000000000001%"></div></div>
-        <span class="pct-val">8.4%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">4</span>
-        <span class="team-name">Argentina</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:33.48214285714286%"></div></div>
-        <span class="pct-val">7.5%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">5</span>
-        <span class="team-name">Colombia</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:28.125%"></div></div>
-        <span class="pct-val">6.3%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">6</span>
-        <span class="team-name">Germany</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:24.55357142857143%"></div></div>
-        <span class="pct-val">5.5%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">7</span>
-        <span class="team-name">Belgium</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:20.089285714285715%"></div></div>
-        <span class="pct-val">4.5%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">8</span>
-        <span class="team-name">England</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:17.41071428571429%"></div></div>
-        <span class="pct-val">3.9%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">9</span>
-        <span class="team-name">Portugal</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:15.625%"></div></div>
-        <span class="pct-val">3.5%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">10</span>
-        <span class="team-name">Croatia</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:14.732142857142858%"></div></div>
-        <span class="pct-val">3.3%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">11</span>
-        <span class="team-name">Uruguay</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:11.160714285714286%"></div></div>
-        <span class="pct-val">2.5%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">12</span>
-        <span class="team-name">Spain</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:9.821428571428573%"></div></div>
-        <span class="pct-val">2.2%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">13</span>
-        <span class="team-name">South Africa</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:6.696428571428571%"></div></div>
-        <span class="pct-val">1.5%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">14</span>
-        <span class="team-name">Austria</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:6.25%"></div></div>
-        <span class="pct-val">1.4%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">15</span>
-        <span class="team-name">Senegal</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:4.9107142857142865%"></div></div>
-        <span class="pct-val">1.1%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">16</span>
-        <span class="team-name">Ecuador</span>
-        <div class="bar-wrap"><div class="bar-fill bar-win" style="width:4.9107142857142865%"></div></div>
-        <span class="pct-val">1.1%</span>
-      </div></div>
+      <div id="win-list"></div>
     </div>
     <div class="card">
       <h3>Final appearance probability — top 16</h3>
-      <div id="final-list">
-      <div class="team-row">
-        <span class="rank-num">1</span>
-        <span class="team-name">France</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:100%"></div></div>
-        <span class="pct-val">30.6%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">2</span>
-        <span class="team-name">Netherlands</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:96.078431372549%"></div></div>
-        <span class="pct-val">29.4%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">3</span>
-        <span class="team-name">Brazil</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:51.9607843137255%"></div></div>
-        <span class="pct-val">15.9%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">4</span>
-        <span class="team-name">Argentina</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:50%"></div></div>
-        <span class="pct-val">15.3%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">5</span>
-        <span class="team-name">Colombia</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:47.71241830065359%"></div></div>
-        <span class="pct-val">14.6%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">6</span>
-        <span class="team-name">Germany</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:34.31372549019608%"></div></div>
-        <span class="pct-val">10.5%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">7</span>
-        <span class="team-name">Belgium</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:30.3921568627451%"></div></div>
-        <span class="pct-val">9.3%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">8</span>
-        <span class="team-name">England</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:27.12418300653595%"></div></div>
-        <span class="pct-val">8.3%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">9</span>
-        <span class="team-name">Portugal</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:30.3921568627451%"></div></div>
-        <span class="pct-val">9.3%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">10</span>
-        <span class="team-name">Croatia</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:27.450980392156865%"></div></div>
-        <span class="pct-val">8.4%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">11</span>
-        <span class="team-name">Uruguay</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:20.26143790849673%"></div></div>
-        <span class="pct-val">6.2%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">12</span>
-        <span class="team-name">Spain</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:17.320261437908496%"></div></div>
-        <span class="pct-val">5.3%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">13</span>
-        <span class="team-name">South Africa</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:13.398692810457517%"></div></div>
-        <span class="pct-val">4.1%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">14</span>
-        <span class="team-name">Austria</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:13.071895424836603%"></div></div>
-        <span class="pct-val">4%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">15</span>
-        <span class="team-name">Senegal</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:15.359477124183007%"></div></div>
-        <span class="pct-val">4.7%</span>
-      </div>
-      <div class="team-row">
-        <span class="rank-num">16</span>
-        <span class="team-name">Ecuador</span>
-        <div class="bar-wrap"><div class="bar-fill bar-final" style="width:9.803921568627452%"></div></div>
-        <span class="pct-val">3%</span>
-      </div></div>
+      <div id="final-list"></div>
     </div>
   </div>
 
   <div class="card" style="margin-top:20px">
     <h3>Semi-final probability — top 12 teams</h3>
-    <canvas id="semi-chart" height="501" style="display: block; box-sizing: border-box; height: 401px; width: 1415px;" width="1769"></canvas>
+    <canvas id="semi-chart" height="85"></canvas>
   </div>
 
   <div class="card" style="margin-top:20px">
     <h3>Quarter-final probability — top 16 teams</h3>
-    <canvas id="qf-chart" height="501" width="1769" style="display: block; box-sizing: border-box; height: 401px; width: 1415px;"></canvas>
+    <canvas id="qf-chart" height="85"></canvas>
   </div>
 </div>
 
@@ -392,90 +200,17 @@
       <h3>Predict any matchup</h3>
       <p class="note-pill">Probabilities derived from ELO ratings via the same hybrid XGBoost + Poisson model used in simulation</p>
       <div class="match-select">
-        <select id="sel-home"><option value="Algeria">Algeria</option><option value="Argentina">Argentina</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Belgium">Belgium</option><option value="Brazil">Brazil</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Colombia">Colombia</option><option value="Croatia">Croatia</option><option value="Curaçao">Curaçao</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="England">England</option><option value="France">France</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Greece">Greece</option><option value="Haiti">Haiti</option><option value="Iran">Iran</option><option value="Ivory Coast">Ivory Coast</option><option value="Japan">Japan</option><option value="Jordan">Jordan</option><option value="Mexico">Mexico</option><option value="Morocco">Morocco</option><option value="Netherlands">Netherlands</option><option value="New Caledonia">New Caledonia</option><option value="New Zealand">New Zealand</option><option value="Norway">Norway</option><option value="Panama">Panama</option><option value="Paraguay">Paraguay</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Scotland">Scotland</option><option value="Senegal">Senegal</option><option value="Slovakia">Slovakia</option><option value="South Africa">South Africa</option><option value="South Korea">South Korea</option><option value="Spain">Spain</option><option value="Switzerland">Switzerland</option><option value="Tunisia">Tunisia</option><option value="United States">United States</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option></select>
+        <select id="sel-home"></select>
         <span class="vs-badge">vs</span>
-        <select id="sel-away"><option value="Algeria">Algeria</option><option value="Argentina">Argentina</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Belgium">Belgium</option><option value="Brazil">Brazil</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Colombia">Colombia</option><option value="Croatia">Croatia</option><option value="Curaçao">Curaçao</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="England">England</option><option value="France">France</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Greece">Greece</option><option value="Haiti">Haiti</option><option value="Iran">Iran</option><option value="Ivory Coast">Ivory Coast</option><option value="Japan">Japan</option><option value="Jordan">Jordan</option><option value="Mexico">Mexico</option><option value="Morocco">Morocco</option><option value="Netherlands">Netherlands</option><option value="New Caledonia">New Caledonia</option><option value="New Zealand">New Zealand</option><option value="Norway">Norway</option><option value="Panama">Panama</option><option value="Paraguay">Paraguay</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Scotland">Scotland</option><option value="Senegal">Senegal</option><option value="Slovakia">Slovakia</option><option value="South Africa">South Africa</option><option value="South Korea">South Korea</option><option value="Spain">Spain</option><option value="Switzerland">Switzerland</option><option value="Tunisia">Tunisia</option><option value="United States">United States</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option></select>
+        <select id="sel-away"></select>
         <button class="btn" onclick="predictMatch()">Predict</button>
       </div>
-      <div id="match-result">
-    <div class="result-card">
-      <div class="teams-line">
-        <div class="team-block">
-          <div class="name">France</div>
-          <div class="elo">ELO 1659</div>
-        </div>
-        <div style="font-size:1.3rem;color:var(--muted);font-weight:700">vs</div>
-        <div class="team-block">
-          <div class="name">Brazil</div>
-          <div class="elo">ELO 1616</div>
-        </div>
-      </div>
-      <div class="prob-bars">
-        <div class="prob-row">
-          <div class="prob-label">France</div>
-          <div class="prob-bar-bg">
-            <div class="prob-bar-fg p-home" style="width:42.03897591156714%">42.0%</div>
-          </div>
-        </div>
-        <div class="prob-row">
-          <div class="prob-label">Draw</div>
-          <div class="prob-bar-bg">
-            <div class="prob-bar-fg p-draw" style="width:25.14%">25.1%</div>
-          </div>
-        </div>
-        <div class="prob-row">
-          <div class="prob-label">Brazil</div>
-          <div class="prob-bar-bg">
-            <div class="prob-bar-fg p-away" style="width:32.82102408843285%">32.8%</div>
-          </div>
-        </div>
-      </div>
-      <p style="font-size:0.78rem;color:var(--muted);margin-top:14px">
-        Model favours <strong style="color:var(--text)">France</strong> · 
-        ELO gap: 43 points
-      </p>
-    </div></div>
+      <div id="match-result"></div>
     </div>
 
     <div class="card">
       <h3>Notable potential clashes</h3>
-      <div id="notable-matches">
-    <div class="team-row" style="cursor:pointer" onclick="document.getElementById(&#39;sel-home&#39;).value=&#39;France&#39;;
-                  document.getElementById(&#39;sel-away&#39;).value=&#39;Brazil&#39;;
-                  predictMatch()">
-      <span class="team-name" style="width:auto;flex:1">France vs Brazil</span>
-      <span style="font-size:0.8rem;color:var(--muted)">France favoured — 42%</span>
-    </div>
-    <div class="team-row" style="cursor:pointer" onclick="document.getElementById(&#39;sel-home&#39;).value=&#39;Netherlands&#39;;
-                  document.getElementById(&#39;sel-away&#39;).value=&#39;Germany&#39;;
-                  predictMatch()">
-      <span class="team-name" style="width:auto;flex:1">Netherlands vs Germany</span>
-      <span style="font-size:0.8rem;color:var(--muted)">Netherlands favoured — 43%</span>
-    </div>
-    <div class="team-row" style="cursor:pointer" onclick="document.getElementById(&#39;sel-home&#39;).value=&#39;Argentina&#39;;
-                  document.getElementById(&#39;sel-away&#39;).value=&#39;England&#39;;
-                  predictMatch()">
-      <span class="team-name" style="width:auto;flex:1">Argentina vs England</span>
-      <span style="font-size:0.8rem;color:var(--muted)">Argentina favoured — 40%</span>
-    </div>
-    <div class="team-row" style="cursor:pointer" onclick="document.getElementById(&#39;sel-home&#39;).value=&#39;France&#39;;
-                  document.getElementById(&#39;sel-away&#39;).value=&#39;Netherlands&#39;;
-                  predictMatch()">
-      <span class="team-name" style="width:auto;flex:1">France vs Netherlands</span>
-      <span style="font-size:0.8rem;color:var(--muted)">Netherlands favoured — 37%</span>
-    </div>
-    <div class="team-row" style="cursor:pointer" onclick="document.getElementById(&#39;sel-home&#39;).value=&#39;Brazil&#39;;
-                  document.getElementById(&#39;sel-away&#39;).value=&#39;Argentina&#39;;
-                  predictMatch()">
-      <span class="team-name" style="width:auto;flex:1">Brazil vs Argentina</span>
-      <span style="font-size:0.8rem;color:var(--muted)">Brazil favoured — 38%</span>
-    </div>
-    <div class="team-row" style="cursor:pointer" onclick="document.getElementById(&#39;sel-home&#39;).value=&#39;Colombia&#39;;
-                  document.getElementById(&#39;sel-away&#39;).value=&#39;Belgium&#39;;
-                  predictMatch()">
-      <span class="team-name" style="width:auto;flex:1">Colombia vs Belgium</span>
-      <span style="font-size:0.8rem;color:var(--muted)">Belgium favoured — 39%</span>
-    </div></div>
+      <div id="notable-matches"></div>
     </div>
   </div>
 </div>
@@ -491,343 +226,7 @@
           <th>#</th><th></th><th>Team</th><th>ELO Rating</th><th>Relative Strength</th><th>Win %</th>
         </tr>
       </thead>
-      <tbody id="elo-table">
-    <tr>
-      <td style="color:var(--muted)">1</td>
-      <td>🥇</td>
-      <td style="font-weight:500">Netherlands</td>
-      <td style="color:rgb(241,186,43);font-weight:600;font-variant-numeric:tabular-nums">1660.8</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:100%;background:rgb(241,186,43)"></div></div></td>
-      <td style="color:var(--muted)">19.4%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">2</td>
-      <td>🥈</td>
-      <td style="font-weight:500">France</td>
-      <td style="color:rgb(240,186,44);font-weight:600;font-variant-numeric:tabular-nums">1658.9</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:99.22035289290116%;background:rgb(240,186,44)"></div></div></td>
-      <td style="color:var(--muted)">22.4%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">3</td>
-      <td>🥉</td>
-      <td style="font-weight:500">Brazil</td>
-      <td style="color:rgb(216,175,60);font-weight:600;font-variant-numeric:tabular-nums">1615.9</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:81.57570783750518%;background:rgb(216,175,60)"></div></div></td>
-      <td style="color:var(--muted)">8.4%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">4</td>
-      <td></td>
-      <td style="font-weight:500">Germany</td>
-      <td style="color:rgb(213,173,62);font-weight:600;font-variant-numeric:tabular-nums">1609.2</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:78.82642593352487%;background:rgb(213,173,62)"></div></div></td>
-      <td style="color:var(--muted)">5.5%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">5</td>
-      <td></td>
-      <td style="font-weight:500">Argentina</td>
-      <td style="color:rgb(212,172,63);font-weight:600;font-variant-numeric:tabular-nums">1606.9</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:77.88264259335254%;background:rgb(212,172,63)"></div></div></td>
-      <td style="color:var(--muted)">7.5%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">6</td>
-      <td></td>
-      <td style="font-weight:500">England</td>
-      <td style="color:rgb(197,166,73);font-weight:600;font-variant-numeric:tabular-nums">1580.3</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:66.967583093968%;background:rgb(197,166,73)"></div></div></td>
-      <td style="color:var(--muted)">3.9%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">7</td>
-      <td></td>
-      <td style="font-weight:500">Belgium</td>
-      <td style="color:rgb(195,165,75);font-weight:600;font-variant-numeric:tabular-nums">1575.5</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:64.99794829708661%;background:rgb(195,165,75)"></div></div></td>
-      <td style="color:var(--muted)">4.5%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">8</td>
-      <td></td>
-      <td style="font-weight:500">Croatia</td>
-      <td style="color:rgb(191,163,77);font-weight:600;font-variant-numeric:tabular-nums">1568.3</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:62.043496101764475%;background:rgb(191,163,77)"></div></div></td>
-      <td style="color:var(--muted)">3.3%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">9</td>
-      <td></td>
-      <td style="font-weight:500">Spain</td>
-      <td style="color:rgb(184,160,82);font-weight:600;font-variant-numeric:tabular-nums">1556.5</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:57.20147722609769%;background:rgb(184,160,82)"></div></div></td>
-      <td style="color:var(--muted)">2.2%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">10</td>
-      <td></td>
-      <td style="font-weight:500">Colombia</td>
-      <td style="color:rgb(184,160,82);font-weight:600;font-variant-numeric:tabular-nums">1556.3</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:57.11940910956095%;background:rgb(184,160,82)"></div></div></td>
-      <td style="color:var(--muted)">6.3%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">11</td>
-      <td></td>
-      <td style="font-weight:500">Portugal</td>
-      <td style="color:rgb(176,156,87);font-weight:600;font-variant-numeric:tabular-nums">1541.4</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:51.00533442757496%;background:rgb(176,156,87)"></div></div></td>
-      <td style="color:var(--muted)">3.5%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">12</td>
-      <td></td>
-      <td style="font-weight:500">Uruguay</td>
-      <td style="color:rgb(175,155,88);font-weight:600;font-variant-numeric:tabular-nums">1538.9</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:49.97948297086589%;background:rgb(175,155,88)"></div></div></td>
-      <td style="color:var(--muted)">2.5%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">13</td>
-      <td></td>
-      <td style="font-weight:500">Morocco</td>
-      <td style="color:rgb(164,150,96);font-weight:600;font-variant-numeric:tabular-nums">1519.2</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:41.895773491998405%;background:rgb(164,150,96)"></div></div></td>
-      <td style="color:var(--muted)">0.3%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">14</td>
-      <td></td>
-      <td style="font-weight:500">Mexico</td>
-      <td style="color:rgb(164,150,96);font-weight:600;font-variant-numeric:tabular-nums">1518.9</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:41.772671317193335%;background:rgb(164,150,96)"></div></div></td>
-      <td style="color:var(--muted)">0.9%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">15</td>
-      <td></td>
-      <td style="font-weight:500">Ecuador</td>
-      <td style="color:rgb(164,150,96);font-weight:600;font-variant-numeric:tabular-nums">1518.1</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:41.44439885104636%;background:rgb(164,150,96)"></div></div></td>
-      <td style="color:var(--muted)">1.1%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">16</td>
-      <td></td>
-      <td style="font-weight:500">Senegal</td>
-      <td style="color:rgb(163,150,96);font-weight:600;font-variant-numeric:tabular-nums">1517.5</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:41.19819450143622%;background:rgb(163,150,96)"></div></div></td>
-      <td style="color:var(--muted)">1.1%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">17</td>
-      <td></td>
-      <td style="font-weight:500">Switzerland</td>
-      <td style="color:rgb(159,148,99);font-weight:600;font-variant-numeric:tabular-nums">1509.4</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:37.87443578169888%;background:rgb(159,148,99)"></div></div></td>
-      <td style="color:var(--muted)">0.4%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">18</td>
-      <td></td>
-      <td style="font-weight:500">Paraguay</td>
-      <td style="color:rgb(159,148,99);font-weight:600;font-variant-numeric:tabular-nums">1509.3</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:37.83340172343046%;background:rgb(159,148,99)"></div></div></td>
-      <td style="color:var(--muted)">0.4%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">19</td>
-      <td></td>
-      <td style="font-weight:500">Norway</td>
-      <td style="color:rgb(158,147,100);font-weight:600;font-variant-numeric:tabular-nums">1508.3</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:37.42306114074683%;background:rgb(158,147,100)"></div></div></td>
-      <td style="color:var(--muted)">0.2%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">20</td>
-      <td></td>
-      <td style="font-weight:500">Austria</td>
-      <td style="color:rgb(154,145,103);font-weight:600;font-variant-numeric:tabular-nums">1500.3</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:34.14033647927781%;background:rgb(154,145,103)"></div></div></td>
-      <td style="color:var(--muted)">1.4%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">21</td>
-      <td></td>
-      <td style="font-weight:500">Uzbekistan</td>
-      <td style="color:rgb(154,145,103);font-weight:600;font-variant-numeric:tabular-nums">1500.0</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:34.017234304472744%;background:rgb(154,145,103)"></div></div></td>
-      <td style="color:var(--muted)">0.4%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">22</td>
-      <td></td>
-      <td style="font-weight:500">Curaçao</td>
-      <td style="color:rgb(154,145,103);font-weight:600;font-variant-numeric:tabular-nums">1500.0</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:34.017234304472744%;background:rgb(154,145,103)"></div></div></td>
-      <td style="color:var(--muted)">0.2%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">23</td>
-      <td></td>
-      <td style="font-weight:500">Cape Verde</td>
-      <td style="color:rgb(154,145,103);font-weight:600;font-variant-numeric:tabular-nums">1500.0</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:34.017234304472744%;background:rgb(154,145,103)"></div></div></td>
-      <td style="color:var(--muted)">—</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">24</td>
-      <td></td>
-      <td style="font-weight:500">Jordan</td>
-      <td style="color:rgb(154,145,103);font-weight:600;font-variant-numeric:tabular-nums">1500.0</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:34.017234304472744%;background:rgb(154,145,103)"></div></div></td>
-      <td style="color:var(--muted)">—</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">25</td>
-      <td></td>
-      <td style="font-weight:500">Ivory Coast</td>
-      <td style="color:rgb(151,144,105);font-weight:600;font-variant-numeric:tabular-nums">1494.4</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:31.719327041444465%;background:rgb(151,144,105)"></div></div></td>
-      <td style="color:var(--muted)">0.2%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">26</td>
-      <td></td>
-      <td style="font-weight:500">New Zealand</td>
-      <td style="color:rgb(150,144,106);font-weight:600;font-variant-numeric:tabular-nums">1492.8</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:31.062782109150604%;background:rgb(150,144,106)"></div></div></td>
-      <td style="color:var(--muted)">—</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">27</td>
-      <td></td>
-      <td style="font-weight:500">Haiti</td>
-      <td style="color:rgb(148,143,107);font-weight:600;font-variant-numeric:tabular-nums">1489.6</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:29.74969224456298%;background:rgb(148,143,107)"></div></div></td>
-      <td style="color:var(--muted)">—</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">28</td>
-      <td></td>
-      <td style="font-weight:500">Japan</td>
-      <td style="color:rgb(148,143,107);font-weight:600;font-variant-numeric:tabular-nums">1488.9</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:29.462453836684517%;background:rgb(148,143,107)"></div></div></td>
-      <td style="color:var(--muted)">0.4%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">29</td>
-      <td></td>
-      <td style="font-weight:500">United States</td>
-      <td style="color:rgb(147,142,107);font-weight:600;font-variant-numeric:tabular-nums">1487.6</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:28.92901107919573%;background:rgb(147,142,107)"></div></div></td>
-      <td style="color:var(--muted)">0.4%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">30</td>
-      <td></td>
-      <td style="font-weight:500">South Africa</td>
-      <td style="color:rgb(146,142,108);font-weight:600;font-variant-numeric:tabular-nums">1486.2</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:28.3545342634387%;background:rgb(146,142,108)"></div></div></td>
-      <td style="color:var(--muted)">1.5%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">31</td>
-      <td></td>
-      <td style="font-weight:500">Algeria</td>
-      <td style="color:rgb(143,140,111);font-weight:600;font-variant-numeric:tabular-nums">1479.3</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:25.523184242921637%;background:rgb(143,140,111)"></div></div></td>
-      <td style="color:var(--muted)">0.2%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">32</td>
-      <td></td>
-      <td style="font-weight:500">Scotland</td>
-      <td style="color:rgb(142,140,111);font-weight:600;font-variant-numeric:tabular-nums">1477.2</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:24.66146901928606%;background:rgb(142,140,111)"></div></div></td>
-      <td style="color:var(--muted)">0.2%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">33</td>
-      <td></td>
-      <td style="font-weight:500">Ghana</td>
-      <td style="color:rgb(139,138,113);font-weight:600;font-variant-numeric:tabular-nums">1472.6</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:22.77390233894132%;background:rgb(139,138,113)"></div></div></td>
-      <td style="color:var(--muted)">0.3%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">34</td>
-      <td></td>
-      <td style="font-weight:500">South Korea</td>
-      <td style="color:rgb(130,134,119);font-weight:600;font-variant-numeric:tabular-nums">1456.3</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:16.08535084119821%;background:rgb(130,134,119)"></div></div></td>
-      <td style="color:var(--muted)">0.3%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">35</td>
-      <td></td>
-      <td style="font-weight:500">Tunisia</td>
-      <td style="color:rgb(130,134,120);font-weight:600;font-variant-numeric:tabular-nums">1455.1</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:15.59294214197784%;background:rgb(130,134,120)"></div></div></td>
-      <td style="color:var(--muted)">—</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">36</td>
-      <td></td>
-      <td style="font-weight:500">Australia</td>
-      <td style="color:rgb(130,134,120);font-weight:600;font-variant-numeric:tabular-nums">1454.9</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:15.510874025441188%;background:rgb(130,134,120)"></div></div></td>
-      <td style="color:var(--muted)">0.2%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">37</td>
-      <td></td>
-      <td style="font-weight:500">Egypt</td>
-      <td style="color:rgb(129,134,120);font-weight:600;font-variant-numeric:tabular-nums">1453.4</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:14.895363151415747%;background:rgb(129,134,120)"></div></div></td>
-      <td style="color:var(--muted)">0.1%</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">38</td>
-      <td></td>
-      <td style="font-weight:500">Iran</td>
-      <td style="color:rgb(127,133,121);font-weight:600;font-variant-numeric:tabular-nums">1449.9</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:13.459171112023052%;background:rgb(127,133,121)"></div></div></td>
-      <td style="color:var(--muted)">—</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">39</td>
-      <td></td>
-      <td style="font-weight:500">Panama</td>
-      <td style="color:rgb(126,132,122);font-weight:600;font-variant-numeric:tabular-nums">1448.0</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:12.679524004924122%;background:rgb(126,132,122)"></div></div></td>
-      <td style="color:var(--muted)">—</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">40</td>
-      <td></td>
-      <td style="font-weight:500">Canada</td>
-      <td style="color:rgb(123,131,124);font-weight:600;font-variant-numeric:tabular-nums">1442.4</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:10.381616741895847%;background:rgb(123,131,124)"></div></div></td>
-      <td style="color:var(--muted)">—</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">41</td>
-      <td></td>
-      <td style="font-weight:500">Qatar</td>
-      <td style="color:rgb(120,129,127);font-weight:600;font-variant-numeric:tabular-nums">1436.3</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:7.878539187525664%;background:rgb(120,129,127)"></div></div></td>
-      <td style="color:var(--muted)">—</td>
-    </tr>
-    <tr>
-      <td style="color:var(--muted)">42</td>
-      <td></td>
-      <td style="font-weight:500">Saudi Arabia</td>
-      <td style="color:rgb(109,124,134);font-weight:600;font-variant-numeric:tabular-nums">1417.1</td>
-      <td><div class="elo-bar"><div class="elo-fill" style="width:0%;background:rgb(109,124,134)"></div></div></td>
-      <td style="color:var(--muted)">0.1%</td>
-    </tr></tbody>
+      <tbody id="elo-table"></tbody>
     </table>
   </div>
 </div>
@@ -837,347 +236,11 @@
   <p style="color:var(--muted);font-size:0.85rem;margin-bottom:18px">
     Teams sorted by ELO rating within each group. <strong style="color:var(--text)">QF%</strong> = probability of reaching the Quarter-finals based on 10,000 Monte Carlo simulations. Playoff winners shown where draw is confirmed.
   </p>
-  <div class="groups-grid" id="groups-grid">
-    <div class="group-card">
-      <div class="group-header" style="background:#3b82f6">Group A</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Mexico</span>
-        <span class="elo-badge">1519</span>
-        <span class="qf-prob">20.1%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Romania</span>
-        <span class="elo-badge">1508</span>
-        <span class="qf-prob">0%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">South Africa</span>
-        <span class="elo-badge">1486</span>
-        <span class="qf-prob">21.5%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">South Korea</span>
-        <span class="elo-badge">1456</span>
-        <span class="qf-prob">11.7%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#10b981">Group B</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Switzerland</span>
-        <span class="elo-badge">1509</span>
-        <span class="qf-prob">15.9%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Slovakia</span>
-        <span class="elo-badge">1488</span>
-        <span class="qf-prob">0%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Canada</span>
-        <span class="elo-badge">1442</span>
-        <span class="qf-prob">2.7%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">Qatar</span>
-        <span class="elo-badge">1436</span>
-        <span class="qf-prob">2.1%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#f59e0b">Group C</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Brazil</span>
-        <span class="elo-badge">1616</span>
-        <span class="qf-prob">42.1%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Morocco</span>
-        <span class="elo-badge">1519</span>
-        <span class="qf-prob">9%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Haiti</span>
-        <span class="elo-badge">1490</span>
-        <span class="qf-prob">0.8%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">Scotland</span>
-        <span class="elo-badge">1477</span>
-        <span class="qf-prob">7.8%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#ef4444">Group D</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Paraguay</span>
-        <span class="elo-badge">1509</span>
-        <span class="qf-prob">15.8%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">United States</span>
-        <span class="elo-badge">1488</span>
-        <span class="qf-prob">18.6%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Greece</span>
-        <span class="elo-badge">1465</span>
-        <span class="qf-prob">0%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">Australia</span>
-        <span class="elo-badge">1455</span>
-        <span class="qf-prob">9.7%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#8b5cf6">Group E</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Germany</span>
-        <span class="elo-badge">1609</span>
-        <span class="qf-prob">35.6%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Ecuador</span>
-        <span class="elo-badge">1518</span>
-        <span class="qf-prob">13.5%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Curaçao</span>
-        <span class="elo-badge">1500</span>
-        <span class="qf-prob">9.9%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">Ivory Coast</span>
-        <span class="elo-badge">1494</span>
-        <span class="qf-prob">7.4%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#06b6d4">Group F</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Netherlands</span>
-        <span class="elo-badge">1661</span>
-        <span class="qf-prob">65.8%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Japan</span>
-        <span class="elo-badge">1489</span>
-        <span class="qf-prob">12.2%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Poland</span>
-        <span class="elo-badge">1461</span>
-        <span class="qf-prob">0%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">Tunisia</span>
-        <span class="elo-badge">1455</span>
-        <span class="qf-prob">3.6%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#ec4899">Group G</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Belgium</span>
-        <span class="elo-badge">1576</span>
-        <span class="qf-prob">46.6%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">New Zealand</span>
-        <span class="elo-badge">1493</span>
-        <span class="qf-prob">5.7%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Egypt</span>
-        <span class="elo-badge">1453</span>
-        <span class="qf-prob">6.8%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">Iran</span>
-        <span class="elo-badge">1450</span>
-        <span class="qf-prob">3.9%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#84cc16">Group H</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Spain</span>
-        <span class="elo-badge">1557</span>
-        <span class="qf-prob">26.2%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Uruguay</span>
-        <span class="elo-badge">1539</span>
-        <span class="qf-prob">27.1%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Cape Verde</span>
-        <span class="elo-badge">1500</span>
-        <span class="qf-prob">5.9%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">Saudi Arabia</span>
-        <span class="elo-badge">1417</span>
-        <span class="qf-prob">3.8%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#f97316">Group I</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">France</span>
-        <span class="elo-badge">1659</span>
-        <span class="qf-prob">59.7%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Senegal</span>
-        <span class="elo-badge">1518</span>
-        <span class="qf-prob">23.2%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Norway</span>
-        <span class="elo-badge">1508</span>
-        <span class="qf-prob">7.6%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">New Caledonia</span>
-        <span class="elo-badge">1500</span>
-        <span class="qf-prob">0%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#6366f1">Group J</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Argentina</span>
-        <span class="elo-badge">1607</span>
-        <span class="qf-prob">44.6%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Austria</span>
-        <span class="elo-badge">1500</span>
-        <span class="qf-prob">22.2%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Jordan</span>
-        <span class="elo-badge">1500</span>
-        <span class="qf-prob">3.6%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">Algeria</span>
-        <span class="elo-badge">1479</span>
-        <span class="qf-prob">7.4%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#14b8a6">Group K</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">Colombia</span>
-        <span class="elo-badge">1556</span>
-        <span class="qf-prob">49%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Portugal</span>
-        <span class="elo-badge">1541</span>
-        <span class="qf-prob">40.8%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Uzbekistan</span>
-        <span class="elo-badge">1500</span>
-        <span class="qf-prob">9.8%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">United States</span>
-        <span class="elo-badge">1488</span>
-        <span class="qf-prob">18.6%</span>
-      </div>
-    </div>
-    <div class="group-card">
-      <div class="group-header" style="background:#d946ef">Group L</div>
-      
-      <div class="group-team">
-        <span class="pos">1</span>
-        <span class="team-label">England</span>
-        <span class="elo-badge">1580</span>
-        <span class="qf-prob">34.3%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">2</span>
-        <span class="team-label">Croatia</span>
-        <span class="elo-badge">1568</span>
-        <span class="qf-prob">34%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">3</span>
-        <span class="team-label">Ghana</span>
-        <span class="elo-badge">1473</span>
-        <span class="qf-prob">11.5%</span>
-      </div>
-      <div class="group-team">
-        <span class="pos">4</span>
-        <span class="team-label">Panama</span>
-        <span class="elo-badge">1448</span>
-        <span class="qf-prob">0.7%</span>
-      </div>
-    </div></div>
+  <div class="groups-grid" id="groups-grid"></div>
 </div>
 
 <!-- ── TAB 5: Model Info ── -->
-<div id="tab-model" class="tab-content active">
+<div id="tab-model" class="tab-content">
   <div class="grid grid-2">
     <div>
       <div class="info-block">
@@ -1185,7 +248,7 @@
         <ul>
           <li><strong>Web scraping</strong> — 928 World Cup match results (1930–2022) scraped from Wikipedia using BeautifulSoup + lxml. The 2026 fixture was pinned to a Wayback Machine snapshot for reproducibility.</li>
           <li><strong>ELO ratings</strong> — computed iteratively over all 928 matches. Every team starts at 1500. Wins earn points, losses lose them. Larger wins (by goal difference) produce bigger updates. A yearly decay factor (×0.85 of gap from 1500) ensures recent form outweighs distant history.</li>
-          <li><strong>Feature engineering</strong> — 9 features built strictly from pre-match data to prevent leakage: ELO ratings, ELO difference, 15-match rolling form (goals scored &amp; conceded), and head-to-head win/draw rates.</li>
+          <li><strong>Feature engineering</strong> — 9 features built strictly from pre-match data to prevent leakage: ELO ratings, ELO difference, 15-match rolling form (goals scored & conceded), and head-to-head win/draw rates.</li>
           <li><strong>XGBoost classifier</strong> — 300 trees, max depth 3, learning rate 0.04, with class-weight balancing to handle the draw class imbalance. Predicts Home Win / Draw / Away Win probabilities.</li>
           <li><strong>Hybrid blend</strong> — final probabilities = 70% XGBoost + 30% Poisson. The Poisson component uses rolling attacking/defensive form to anchor extreme predictions.</li>
           <li><strong>Monte Carlo simulation</strong> — 10,000 full tournament simulations. Each match outcome is sampled from the hybrid model's predicted distribution. A probability cache pre-computes all pairings for speed.</li>
@@ -1206,70 +269,7 @@
     <div>
       <div class="info-block">
         <h4>Feature importances (XGBoost — actual values)</h4>
-        <div id="feat-importances">
-    <div class="feat-row">
-      <span class="feat-name">Home form scored</span>
-      <div class="feat-bar">
-        <div class="feat-fill" style="width:100%"></div>
-      </div>
-      <span class="feat-val">12.9%</span>
-    </div>
-    <div class="feat-row">
-      <span class="feat-name">ELO difference</span>
-      <div class="feat-bar">
-        <div class="feat-fill" style="width:94.82651314765832%"></div>
-      </div>
-      <span class="feat-val">12.2%</span>
-    </div>
-    <div class="feat-row">
-      <span class="feat-name">H2H home win rate</span>
-      <div class="feat-bar">
-        <div class="feat-fill" style="width:89.71526373113429%"></div>
-      </div>
-      <span class="feat-val">11.5%</span>
-    </div>
-    <div class="feat-row">
-      <span class="feat-name">Away form scored</span>
-      <div class="feat-bar">
-        <div class="feat-fill" style="width:86.59561226077487%"></div>
-      </div>
-      <span class="feat-val">11.1%</span>
-    </div>
-    <div class="feat-row">
-      <span class="feat-name">Home team ELO</span>
-      <div class="feat-bar">
-        <div class="feat-fill" style="width:85.70872880037344%"></div>
-      </div>
-      <span class="feat-val">11.0%</span>
-    </div>
-    <div class="feat-row">
-      <span class="feat-name">Away team ELO</span>
-      <div class="feat-bar">
-        <div class="feat-fill" style="width:83.12587521394119%"></div>
-      </div>
-      <span class="feat-val">10.7%</span>
-    </div>
-    <div class="feat-row">
-      <span class="feat-name">Away form conceded</span>
-      <div class="feat-bar">
-        <div class="feat-fill" style="width:82.06783880504123%"></div>
-      </div>
-      <span class="feat-val">10.5%</span>
-    </div>
-    <div class="feat-row">
-      <span class="feat-name">H2H draw rate</span>
-      <div class="feat-bar">
-        <div class="feat-fill" style="width:79.51610393651782%"></div>
-      </div>
-      <span class="feat-val">10.2%</span>
-    </div>
-    <div class="feat-row">
-      <span class="feat-name">Home form conceded</span>
-      <div class="feat-bar">
-        <div class="feat-fill" style="width:76.41979150459002%"></div>
-      </div>
-      <span class="feat-val">9.8%</span>
-    </div></div>
+        <div id="feat-importances"></div>
       </div>
       <div class="info-block">
         <h4>Key design decisions</h4>
@@ -1564,6 +564,5 @@ function showTab(id, el) {
   if (el) el.classList.add('active');
 }
 </script>
-
-
-</body></html>
+</body>
+</html>
