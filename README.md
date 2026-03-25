@@ -1,4 +1,4 @@
-# ⚽ WorldCupOracle-ML (FIFA 2026 World Cup Predictor)
+# ⚽ FifaWorldCupOracle-ML (FIFA 2026 World Cup Predictor)
 
 > **An end-to-end Machine Learning pipeline** — from raw web-scraped data to a Monte Carlo tournament simulator — built to predict the FIFA 2026 World Cup using ELO ratings, feature engineering, XGBoost, and probabilistic simulation.
 
